@@ -1,377 +1,5 @@
 [
  {
-  "name": "PAVA",
-  "handle": "@buildwithpava",
-  "carousels": [
-   {
-    "num": 1,
-    "title": "You hired staff. Why are you still doing everything?",
-    "slides": [
-     "You hired staff. Why are you still doing everything?",
-     "You have people on your team, but every small decision still lands on your desk.",
-     "Sometimes they are not lazy. They just do not know what they can decide without you.",
-     "Pick one task this week. Explain the expected result, who owns it and when you want an update.",
-     "Delegating is not disappearing. It is giving people enough clarity to do the job."
-    ],
-    "caption": "You have people on your team, but every small decision still lands on your desk. Delegating is not disappearing. It is giving people enough clarity to do the job."
-   },
-   {
-    "num": 2,
-    "title": "Your business should not stop when you step out",
-    "slides": [
-     "Your business should not stop when you step out",
-     "Imagine taking one afternoon off and returning to twenty missed calls.",
-     "That is usually a sign that too much information lives in one person's head.",
-     "Write down how orders are received, handled and followed up. Start with the busiest process.",
-     "A good process gives everyone a place to start, even when you are away."
-    ],
-    "caption": "Imagine taking one afternoon off and returning to twenty missed calls. A good process gives everyone a place to start, even when you are away."
-   },
-   {
-    "num": 3,
-    "title": "Busy does not always mean productive",
-    "slides": [
-     "Busy does not always mean productive",
-     "Your team has been working all day. Yet the important things are still waiting.",
-     "A full to-do list can hide the fact that nobody agreed on what mattered most.",
-     "At the start of the day, agree on the three outcomes that cannot wait.",
-     "Measure what got finished, not just how tired everyone feels."
-    ],
-    "caption": "Your team has been working all day. Yet the important things are still waiting. Measure what got finished, not just how tired everyone feels."
-   },
-   {
-    "num": 4,
-    "title": "Your customers should not have to ask twice",
-    "slides": [
-     "Your customers should not have to ask twice",
-     "A customer sends a message on Monday, follows up on Tuesday and gets an answer on Thursday.",
-     "You might have a great product, but slow responses make people doubt the business.",
-     "Decide who responds to enquiries, how quickly and where unanswered messages are tracked.",
-     "Customer service is not only about being polite. It is also about being reliable."
-    ],
-    "caption": "A customer sends a message on Monday, follows up on Tuesday and gets an answer on Thursday. Customer service is not only about being polite. It is also about being reliable."
-   },
-   {
-    "num": 5,
-    "title": "That spreadsheet nobody updates",
-    "slides": [
-     "That spreadsheet nobody updates",
-     "You created a tracker to make work easier. Two weeks later, everyone has stopped using it.",
-     "The problem may be that it takes too much effort or nobody knows why it matters.",
-     "Remove fields you never use. Give one person responsibility for checking it weekly.",
-     "A simple tool people use beats a complicated one they avoid."
-    ],
-    "caption": "You created a tracker to make work easier. Two weeks later, everyone has stopped using it. A simple tool people use beats a complicated one they avoid."
-   },
-   {
-    "num": 6,
-    "title": "Before you hire another person, check this",
-    "slides": [
-     "Before you hire another person, check this",
-     "You are overwhelmed, so the first thought is to employ someone else.",
-     "But if the work is disorganised, another person may only join the confusion.",
-     "List the repeated tasks, remove unnecessary steps and decide what really needs a new role.",
-     "Sometimes you need another employee. Sometimes you need a better way of working."
-    ],
-    "caption": "You are overwhelmed, so the first thought is to employ someone else. Sometimes you need another employee. Sometimes you need a better way of working."
-   },
-   {
-    "num": 7,
-    "title": "Why do the same mistakes keep happening?",
-    "slides": [
-     "Why do the same mistakes keep happening?",
-     "An order gets mixed up. Everyone apologises. A month later, it happens again.",
-     "Fixing the immediate issue is not the same as fixing what caused it.",
-     "Ask where the handoff failed and add one check that would catch it next time.",
-     "The point is not to find someone to blame. It is to stop repeating the problem."
-    ],
-    "caption": "An order gets mixed up. Everyone apologises. A month later, it happens again. The point is not to find someone to blame. It is to stop repeating the problem."
-   },
-   {
-    "num": 8,
-    "title": "Your business needs a weekly check-in",
-    "slides": [
-     "Your business needs a weekly check-in",
-     "Everybody is busy, so meetings keep getting postponed.",
-     "Then problems build up quietly until something goes wrong.",
-     "Spend twenty minutes each week on pending work, customer issues, money and next steps.",
-     "A short useful meeting can save a long stressful conversation later."
-    ],
-    "caption": "Everybody is busy, so meetings keep getting postponed. A short useful meeting can save a long stressful conversation later."
-   },
-   {
-    "num": 9,
-    "title": "A discount is not always a good idea",
-    "slides": [
-     "A discount is not always a good idea",
-     "Sales are slow, so you cut prices to attract customers.",
-     "But more orders will not help much if you are losing money on each one.",
-     "Check product cost, delivery, packaging and the margin left before announcing a discount.",
-     "More sales should make the business healthier, not just busier."
-    ],
-    "caption": "Sales are slow, so you cut prices to attract customers. More sales should make the business healthier, not just busier."
-   },
-   {
-    "num": 10,
-    "title": "Do you know where your stock goes?",
-    "slides": [
-     "Do you know where your stock goes?",
-     "You bought twenty items, sold twelve and can only find six.",
-     "Small stock differences can quietly become a serious problem.",
-     "Record what comes in, what goes out and who approved adjustments. Count regularly.",
-     "You cannot manage what you cannot account for."
-    ],
-    "caption": "You bought twenty items, sold twelve and can only find six. You cannot manage what you cannot account for."
-   },
-   {
-    "num": 11,
-    "title": "Your staff cannot read your mind",
-    "slides": [
-     "Your staff cannot read your mind",
-     "You say, \"Just handle it the usual way,\" but the new employee has no idea what that means.",
-     "What feels obvious to you may never have been explained to someone else.",
-     "Show an example of good work and write down the steps in plain language.",
-     "Clear instructions save everyone time and frustration."
-    ],
-    "caption": "You say, \"Just handle it the usual way,\" but the new employee has no idea what that means. Clear instructions save everyone time and frustration."
-   },
-   {
-    "num": 12,
-    "title": "Automation will not fix a confusing process",
-    "slides": [
-     "Automation will not fix a confusing process",
-     "You want an app that automatically handles customer orders.",
-     "But if nobody agrees on the current order process, the app will only move confusion faster.",
-     "First decide the steps, responsibilities and exceptions. Then choose what to automate.",
-     "Get the process right before asking technology to speed it up."
-    ],
-    "caption": "You want an app that automatically handles customer orders. Get the process right before asking technology to speed it up."
-   },
-   {
-    "num": 13,
-    "title": "Who checks that payments actually came in?",
-    "slides": [
-     "Who checks that payments actually came in?",
-     "Someone sends a payment screenshot, and the order moves immediately.",
-     "Screenshots are useful, but they are not the same as confirming funds received.",
-     "Set a clear payment-confirmation step before goods or services are released.",
-     "Good controls are not about mistrusting customers. They protect the business."
-    ],
-    "caption": "Someone sends a payment screenshot, and the order moves immediately. Good controls are not about mistrusting customers. They protect the business."
-   },
-   {
-    "num": 14,
-    "title": "Your numbers are trying to tell you something",
-    "slides": [
-     "Your numbers are trying to tell you something",
-     "Revenue looks good, but the business account is always running low.",
-     "Sales, profit and cash available are three different things.",
-     "Look at unpaid invoices, upcoming bills and actual cash each week.",
-     "Do not wait until payday to discover there is a cash problem."
-    ],
-    "caption": "Revenue looks good, but the business account is always running low. Do not wait until payday to discover there is a cash problem."
-   },
-   {
-    "num": 15,
-    "title": "Inside the Operations Room: a fresh-produce lesson",
-    "slides": [
-     "Inside the Operations Room: a fresh-produce lesson",
-     "Think about a fresh-produce business like Yolafresh. A delay is not just a late delivery.",
-     "Produce can lose freshness, customers can cancel and costs can rise quickly.",
-     "Map what happens from sourcing to storage to delivery, and decide where delays must be flagged.",
-     "The lesson is simple: operations are part of the customer experience, not just back-office work."
-    ],
-    "caption": "Think about a fresh-produce business like Yolafresh. A delay is not just a late delivery. The lesson is simple: operations are part of the customer experience, not just back-office work."
-   }
-  ]
- },
- {
-  "name": "SmartFinanceVic",
-  "handle": "@smartfinancevic",
-  "carousels": [
-   {
-    "num": 1,
-    "title": "Your salary came in. Where did it go?",
-    "slides": [
-     "Your salary came in. Where did it go?",
-     "You were paid on Friday. By Wednesday, you are already checking your balance.",
-     "It may not be one big expense. It could be many small ones you barely noticed.",
-     "Look at the last seven days of transactions. Group them into needs, commitments and extras.",
-     "Before you decide you need more money, find out what happened to the last one."
-    ],
-    "caption": "You were paid on Friday. By Wednesday, you are already checking your balance. Before you decide you need more money, find out what happened to the last one."
-   },
-   {
-    "num": 2,
-    "title": "The Money Chronicles: she saved nothing for six months",
-    "slides": [
-     "The Money Chronicles: she saved nothing for six months",
-     "Every month she promised herself she would save whatever was left.",
-     "The problem was that there was never anything left.",
-     "Try setting aside a realistic amount when money arrives, then plan around the balance.",
-     "A small amount saved consistently is still a decision worth taking."
-    ],
-    "caption": "Every month she promised herself she would save whatever was left. A small amount saved consistently is still a decision worth taking."
-   },
-   {
-    "num": 3,
-    "title": "You can earn more and still feel broke",
-    "slides": [
-     "You can earn more and still feel broke",
-     "A salary increase sounds like relief. Then the subscriptions, outings and expenses grow too.",
-     "Sometimes our spending adjusts faster than our plans.",
-     "When income rises, decide in advance how much goes to saving, investing and lifestyle.",
-     "Enjoy your money. Just do not let every increase disappear without a trace."
-    ],
-    "caption": "A salary increase sounds like relief. Then the subscriptions, outings and expenses grow too. Enjoy your money. Just do not let every increase disappear without a trace."
-   },
-   {
-    "num": 4,
-    "title": "Before you invest, ask this question",
-    "slides": [
-     "Before you invest, ask this question",
-     "Someone says an investment pays a very attractive return every month.",
-     "It is tempting to focus on the profit and forget to ask how the money is made.",
-     "Ask what the investment owns, the risks, fees, liquidity and who regulates the provider.",
-     "If you cannot explain what you are investing in, slow down."
-    ],
-    "caption": "Someone says an investment pays a very attractive return every month. If you cannot explain what you are investing in, slow down."
-   },
-   {
-    "num": 5,
-    "title": "Your emergency fund is not boring",
-    "slides": [
-     "Your emergency fund is not boring",
-     "Nobody posts exciting pictures of money sitting quietly in an account.",
-     "But when your phone breaks or work is interrupted, that money suddenly matters.",
-     "Start with a manageable buffer and build towards several months of essential expenses.",
-     "Not every naira needs to chase a return. Some money is there to give you breathing room."
-    ],
-    "caption": "Nobody posts exciting pictures of money sitting quietly in an account. Not every naira needs to chase a return. Some money is there to give you breathing room."
-   },
-   {
-    "num": 6,
-    "title": "The Money Chronicles: lending money you needed",
-    "slides": [
-     "The Money Chronicles: lending money you needed",
-     "He wanted to help a friend, so he lent out the money meant for his rent.",
-     "Now he is uncomfortable asking for it back and worried about his own bills.",
-     "Before lending, ask whether you can manage if repayment is delayed.",
-     "Generosity is good. Putting yourself in trouble to prove it is another matter."
-    ],
-    "caption": "He wanted to help a friend, so he lent out the money meant for his rent. Generosity is good. Putting yourself in trouble to prove it is another matter."
-   },
-   {
-    "num": 7,
-    "title": "Saving and investing are not the same thing",
-    "slides": [
-     "Saving and investing are not the same thing",
-     "You have money for school fees due in two months and money for a goal five years away.",
-     "Those two amounts should not automatically go into the same place.",
-     "Match the money to the timeline and the level of risk you can afford.",
-     "The right place for your money depends on when you need it."
-    ],
-    "caption": "You have money for school fees due in two months and money for a goal five years away. The right place for your money depends on when you need it."
-   },
-   {
-    "num": 8,
-    "title": "You do not need to start investing with millions",
-    "slides": [
-     "You do not need to start investing with millions",
-     "Some people keep postponing investing because they think their money is too small.",
-     "The more important starting point is understanding the product and its risks.",
-     "Learn the basics, check fees and minimums, and begin with an amount you can afford to set aside.",
-     "Start with knowledge, not pressure to look wealthy."
-    ],
-    "caption": "Some people keep postponing investing because they think their money is too small. Start with knowledge, not pressure to look wealthy."
-   },
-   {
-    "num": 9,
-    "title": "The Money Chronicles: the December spending hangover",
-    "slides": [
-     "The Money Chronicles: the December spending hangover",
-     "December was fun. January arrived with school fees, rent and a very quiet account.",
-     "The problem was not enjoying December. It was spending without remembering January.",
-     "Create a separate festive budget and keep next month's fixed bills out of it.",
-     "You can enjoy the season without borrowing stress from the new year."
-    ],
-    "caption": "December was fun. January arrived with school fees, rent and a very quiet account. You can enjoy the season without borrowing stress from the new year."
-   },
-   {
-    "num": 10,
-    "title": "Why your budget keeps failing",
-    "slides": [
-     "Why your budget keeps failing",
-     "You write a perfect budget on the first day of the month. By the tenth, you have abandoned it.",
-     "Maybe it does not reflect how you actually live.",
-     "Use your real spending history and leave room for irregular expenses.",
-     "A useful budget is one you can live with, not one that looks impressive on paper."
-    ],
-    "caption": "You write a perfect budget on the first day of the month. By the tenth, you have abandoned it. A useful budget is one you can live with, not one that looks impressive on paper."
-   },
-   {
-    "num": 11,
-    "title": "The Money Chronicles: everyone was buying it",
-    "slides": [
-     "The Money Chronicles: everyone was buying it",
-     "She invested because people in her group chat said they were making money.",
-     "By the time she wanted to withdraw, she realised she did not understand the rules.",
-     "Do your own checks. Read the terms, understand how withdrawals work and consider the risk of loss.",
-     "Other people's excitement is not an investment strategy."
-    ],
-    "caption": "She invested because people in her group chat said they were making money. Other people's excitement is not an investment strategy."
-   },
-   {
-    "num": 12,
-    "title": "What is your money supposed to do this year?",
-    "slides": [
-     "What is your money supposed to do this year?",
-     "You say you want to be better with money, but better can mean almost anything.",
-     "A clear goal makes it easier to choose what to do next.",
-     "Pick one target: clear a debt, build a buffer or invest towards a specific future need.",
-     "Give your money a job you can actually describe."
-    ],
-    "caption": "You say you want to be better with money, but better can mean almost anything. Give your money a job you can actually describe."
-   },
-   {
-    "num": 13,
-    "title": "Do not ignore the cost of borrowing",
-    "slides": [
-     "Do not ignore the cost of borrowing",
-     "A loan repayment looks manageable until you add up every fee and the total amount due.",
-     "The monthly payment is only one part of the story.",
-     "Compare total repayment, interest, fees, penalties and what happens if income changes.",
-     "A loan should solve a problem, not quietly create a bigger one."
-    ],
-    "caption": "A loan repayment looks manageable until you add up every fee and the total amount due. A loan should solve a problem, not quietly create a bigger one."
-   },
-   {
-    "num": 14,
-    "title": "What happens if your income stops for a while?",
-    "slides": [
-     "What happens if your income stops for a while?",
-     "It is an uncomfortable question, especially when everything seems fine.",
-     "But financial plans should work on difficult days too.",
-     "Write down essential bills, available savings and expenses you could pause if needed.",
-     "Preparing for uncertainty is not being negative. It is being realistic."
-    ],
-    "caption": "It is an uncomfortable question, especially when everything seems fine. Preparing for uncertainty is not being negative. It is being realistic."
-   },
-   {
-    "num": 15,
-    "title": "The Money Chronicles: a good year, no assets",
-    "slides": [
-     "The Money Chronicles: a good year, no assets",
-     "He earned well, travelled, bought nice things and enjoyed himself.",
-     "At year-end, he realised he had nothing set aside for his longer-term plans.",
-     "Choose a portion of income for assets and long-term goals before deciding what is left for extras.",
-     "Enjoying today and planning for tomorrow can happen together."
-    ],
-    "caption": "He earned well, travelled, bought nice things and enjoyed himself. Enjoying today and planning for tomorrow can happen together."
-   }
-  ]
- },
- {
   "name": "Leverage AI Studio",
   "handle": "@leverageaistudio",
   "carousels": [
@@ -554,6 +182,528 @@
      "Start with one useful workflow before adding another subscription."
     ],
     "caption": "You have tried ten tools and still feel like you are doing everything manually. Start with one useful workflow before adding another subscription."
+   }
+  ]
+ },
+ {
+  "name": "Victoria Innocent",
+  "handle": "@thevictoriainnocent",
+  "carousels": [
+   {
+    "num": 1,
+    "title": "I am learning not to explain every decision",
+    "slides": [
+     "I am learning not to explain every decision",
+     "There was a time I felt I needed everyone to understand why I made a choice.",
+     "But sometimes explaining again and again only leaves me tired.",
+     "I am learning to be clear where it matters and let some things speak for themselves.",
+     "Not every decision needs a full presentation."
+    ],
+    "caption": "There was a time I felt I needed everyone to understand why I made a choice. Not every decision needs a full presentation."
+   },
+   {
+    "num": 2,
+    "title": "Some days I am productive. Some days I am just tired",
+    "slides": [
+     "Some days I am productive. Some days I am just tired",
+     "I can plan a beautiful week on Sunday and still have a completely different Tuesday.",
+     "Life does not always follow the calendar I made.",
+     "I try to move the important things forward without pretending I have endless energy.",
+     "Consistency can include adjusting the plan."
+    ],
+    "caption": "I can plan a beautiful week on Sunday and still have a completely different Tuesday. Consistency can include adjusting the plan."
+   },
+   {
+    "num": 3,
+    "title": "Building something while working full-time is a lot",
+    "slides": [
+     "Building something while working full-time is a lot",
+     "There are ideas in my notes, things I want to launch and work waiting for me too.",
+     "The difficult part is not always a lack of ideas. It is finding time to execute them.",
+     "I am learning to choose what matters this week instead of trying to finish everything today.",
+     "Small progress still counts when your plate is full."
+    ],
+    "caption": "There are ideas in my notes, things I want to launch and work waiting for me too. Small progress still counts when your plate is full."
+   },
+   {
+    "num": 4,
+    "title": "I have stopped waiting for everything to be perfect",
+    "slides": [
+     "I have stopped waiting for everything to be perfect",
+     "I can spend so much time planning a project that I almost forget to start it.",
+     "There is always another detail to fix or another thing to learn.",
+     "These days, I would rather begin with a workable version and improve as I go.",
+     "Sometimes starting teaches you what planning cannot."
+    ],
+    "caption": "I can spend so much time planning a project that I almost forget to start it. Sometimes starting teaches you what planning cannot."
+   },
+   {
+    "num": 5,
+    "title": "I like having ideas. Execution is another story",
+    "slides": [
+     "I like having ideas. Execution is another story",
+     "My brain can give me five new business ideas before breakfast.",
+     "But an idea only becomes something real when I give it time, money and attention.",
+     "So I am trying to finish more of what I start before chasing the next exciting thing.",
+     "An idea is fun. Building it is the actual work."
+    ],
+    "caption": "My brain can give me five new business ideas before breakfast. An idea is fun. Building it is the actual work."
+   },
+   {
+    "num": 6,
+    "title": "I am learning to keep work at work",
+    "slides": [
+     "I am learning to keep work at work",
+     "It is easy to carry one awkward conversation into the rest of your evening.",
+     "Suddenly, you are home but still mentally sitting in that meeting.",
+     "I am trying to do my job well, address what needs addressing and leave the rest there.",
+     "My whole life cannot revolve around one workday."
+    ],
+    "caption": "It is easy to carry one awkward conversation into the rest of your evening. My whole life cannot revolve around one workday."
+   },
+   {
+    "num": 7,
+    "title": "Nobody tells you how many tabs adulthood opens",
+    "slides": [
+     "Nobody tells you how many tabs adulthood opens",
+     "There is work, bills, family, goals, messages and that one thing you keep forgetting to do.",
+     "Sometimes I laugh because how is everyone keeping up with all of this?",
+     "I have started writing things down and deciding what can actually wait.",
+     "Being an adult seems to involve a lot of remembering."
+    ],
+    "caption": "There is work, bills, family, goals, messages and that one thing you keep forgetting to do. Being an adult seems to involve a lot of remembering."
+   },
+   {
+    "num": 8,
+    "title": "I am trying to enjoy the process too",
+    "slides": [
+     "I am trying to enjoy the process too",
+     "I can get so focused on what is next that I barely notice what is happening now.",
+     "There will probably always be another milestone after this one.",
+     "So I am making an effort to celebrate the little things without waiting for the big announcement.",
+     "I want to remember the journey, not only the results."
+    ],
+    "caption": "I can get so focused on what is next that I barely notice what is happening now. I want to remember the journey, not only the results."
+   },
+   {
+    "num": 9,
+    "title": "Sometimes the best plan is to mind your business",
+    "slides": [
+     "Sometimes the best plan is to mind your business",
+     "Not in a rude way. Just in the sense of focusing on what you can actually control.",
+     "You can spend so much energy guessing what other people think.",
+     "I would rather put that energy into my work, my growth and the things I am building.",
+     "Peace can look like fewer unnecessary explanations."
+    ],
+    "caption": "Not in a rude way. Just in the sense of focusing on what you can actually control. Peace can look like fewer unnecessary explanations."
+   },
+   {
+    "num": 10,
+    "title": "I am not interested in looking busy anymore",
+    "slides": [
+     "I am not interested in looking busy anymore",
+     "There is something about having a packed calendar that makes you feel important.",
+     "But a busy week does not always mean you made meaningful progress.",
+     "I am paying more attention to what I finished and what actually moved forward.",
+     "I would rather have results than a dramatic to-do list."
+    ],
+    "caption": "There is something about having a packed calendar that makes you feel important. I would rather have results than a dramatic to-do list."
+   },
+   {
+    "num": 11,
+    "title": "I have learned that money needs attention",
+    "slides": [
+     "I have learned that money needs attention",
+     "It is possible to work hard for money and still avoid looking closely at your spending.",
+     "I have realised that ignoring the numbers does not make them less important.",
+     "I am trying to make more intentional decisions instead of checking my balance only when I am worried.",
+     "Money conversations should be part of everyday life."
+    ],
+    "caption": "It is possible to work hard for money and still avoid looking closely at your spending. Money conversations should be part of everyday life."
+   },
+   {
+    "num": 12,
+    "title": "I am allowed to change my mind",
+    "slides": [
+     "I am allowed to change my mind",
+     "Sometimes an idea made sense six months ago and no longer fits where I am now.",
+     "That does not automatically mean the first decision was foolish.",
+     "I can look at what I have learned and make a different choice.",
+     "Growth sometimes looks like changing the plan."
+    ],
+    "caption": "Sometimes an idea made sense six months ago and no longer fits where I am now. Growth sometimes looks like changing the plan."
+   },
+   {
+    "num": 13,
+    "title": "My notes app knows too much",
+    "slides": [
+     "My notes app knows too much",
+     "Business ideas, random thoughts, captions, reminders and things I want to buy are all living there.",
+     "Half the challenge is remembering which note has the thing I need.",
+     "I am learning to turn the useful ideas into actual next steps instead of just collecting them.",
+     "A note is not a project until something happens with it."
+    ],
+    "caption": "Business ideas, random thoughts, captions, reminders and things I want to buy are all living there. A note is not a project until something happens with it."
+   },
+   {
+    "num": 14,
+    "title": "You can be ambitious and still need a quiet day",
+    "slides": [
+     "You can be ambitious and still need a quiet day",
+     "I want to do a lot with my life. That part has not changed.",
+     "But I am also learning that I cannot treat every free hour like a work opportunity.",
+     "Sometimes I need to rest, see people I love or do absolutely nothing important.",
+     "Ambition and enjoyment can exist in the same life."
+    ],
+    "caption": "I want to do a lot with my life. That part has not changed. Ambition and enjoyment can exist in the same life."
+   },
+   {
+    "num": 15,
+    "title": "I want to look back and know I actually tried",
+    "slides": [
+     "I want to look back and know I actually tried",
+     "There are so many things I am curious about building and learning.",
+     "Not all of them will work, and I am making peace with that.",
+     "What matters to me is giving the important ones a real chance, not only talking about them.",
+     "I would rather learn from trying than keep wondering."
+    ],
+    "caption": "There are so many things I am curious about building and learning. I would rather learn from trying than keep wondering."
+   }
+  ]
+ },
+ {
+  "name": "PAVA",
+  "handle": "@buildwithpava",
+  "carousels": [
+   {
+    "num": 1,
+    "title": "You hired staff. Why are you still doing everything?",
+    "slides": [
+     "You hired staff. Why are you still doing everything?",
+     "You have people on your team, but every small decision still lands on your desk.",
+     "Sometimes they are not lazy. They just do not know what they can decide without you.",
+     "Pick one task this week. Explain the expected result, who owns it and when you want an update.",
+     "Delegating is not disappearing. It is giving people enough clarity to do the job."
+    ],
+    "caption": "You have people on your team, but every small decision still lands on your desk. Delegating is not disappearing. It is giving people enough clarity to do the job."
+   },
+   {
+    "num": 2,
+    "title": "Your business should not stop when you step out",
+    "slides": [
+     "Your business should not stop when you step out",
+     "Imagine taking one afternoon off and returning to twenty missed calls.",
+     "That is usually a sign that too much information lives in one person's head.",
+     "Write down how orders are received, handled and followed up. Start with the busiest process.",
+     "A good process gives everyone a place to start, even when you are away."
+    ],
+    "caption": "Imagine taking one afternoon off and returning to twenty missed calls. A good process gives everyone a place to start, even when you are away."
+   },
+   {
+    "num": 3,
+    "title": "Busy does not always mean productive",
+    "slides": [
+     "Busy does not always mean productive",
+     "Your team has been working all day. Yet the important things are still waiting.",
+     "A full to-do list can hide the fact that nobody agreed on what mattered most.",
+     "At the start of the day, agree on the three outcomes that cannot wait.",
+     "Measure what got finished, not just how tired everyone feels."
+    ],
+    "caption": "Your team has been working all day. Yet the important things are still waiting. Measure what got finished, not just how tired everyone feels."
+   },
+   {
+    "num": 4,
+    "title": "Your customers should not have to ask twice",
+    "slides": [
+     "Your customers should not have to ask twice",
+     "A customer sends a message on Monday, follows up on Tuesday and gets an answer on Thursday.",
+     "You might have a great product, but slow responses make people doubt the business.",
+     "Decide who responds to enquiries, how quickly and where unanswered messages are tracked.",
+     "Customer service is not only about being polite. It is also about being reliable."
+    ],
+    "caption": "A customer sends a message on Monday, follows up on Tuesday and gets an answer on Thursday. Customer service is not only about being polite. It is also about being reliable."
+   },
+   {
+    "num": 6,
+    "title": "Before you hire another person, check this",
+    "slides": [
+     "Before you hire another person, check this",
+     "You are overwhelmed, so the first thought is to employ someone else.",
+     "But if the work is disorganised, another person may only join the confusion.",
+     "List the repeated tasks, remove unnecessary steps and decide what really needs a new role.",
+     "Sometimes you need another employee. Sometimes you need a better way of working."
+    ],
+    "caption": "You are overwhelmed, so the first thought is to employ someone else. Sometimes you need another employee. Sometimes you need a better way of working."
+   },
+   {
+    "num": 7,
+    "title": "Why do the same mistakes keep happening?",
+    "slides": [
+     "Why do the same mistakes keep happening?",
+     "An order gets mixed up. Everyone apologises. A month later, it happens again.",
+     "Fixing the immediate issue is not the same as fixing what caused it.",
+     "Ask where the handoff failed and add one check that would catch it next time.",
+     "The point is not to find someone to blame. It is to stop repeating the problem."
+    ],
+    "caption": "An order gets mixed up. Everyone apologises. A month later, it happens again. The point is not to find someone to blame. It is to stop repeating the problem."
+   },
+   {
+    "num": 8,
+    "title": "Your business needs a weekly check-in, all you need is 20 mins",
+    "slides": [
+     "Your business needs a weekly check-in",
+     "Everybody is busy, so meetings keep getting postponed.",
+     "Then problems build up quietly until something goes wrong.",
+     "Spend twenty minutes each week on pending work, customer issues, money and next steps.",
+     "A short useful meeting can save a long stressful conversation later."
+    ],
+    "caption": "Everybody is busy, so meetings keep getting postponed. A short useful meeting can save a long stressful conversation later."
+   },
+   {
+    "num": 9,
+    "title": "A discount is not always a good idea",
+    "slides": [
+     "A discount is not always a good idea",
+     "Sales are slow, so you cut prices to attract customers.",
+     "But more orders will not help much if you are losing money on each one.",
+     "Check product cost, delivery, packaging and the margin left before announcing a discount.",
+     "More sales should make the business healthier, not just busier."
+    ],
+    "caption": "Sales are slow, so you cut prices to attract customers. More sales should make the business healthier, not just busier."
+   },
+   {
+    "num": 10,
+    "title": "Do you know where your stock goes?",
+    "slides": [
+     "Do you know where your stock goes?",
+     "You bought twenty items, sold twelve and can only find six.",
+     "Small stock differences can quietly become a serious problem.",
+     "Record what comes in, what goes out and who approved adjustments. Count regularly.",
+     "You cannot manage what you cannot account for."
+    ],
+    "caption": "You bought twenty items, sold twelve and can only find six. You cannot manage what you cannot account for."
+   },
+   {
+    "num": 11,
+    "title": "Your staff cannot read your mind",
+    "slides": [
+     "Your staff cannot read your mind",
+     "You say, \"Just handle it the usual way,\" but the new employee has no idea what that means.",
+     "What feels obvious to you may never have been explained to someone else.",
+     "Show an example of good work and write down the steps in plain language.",
+     "Clear instructions save everyone time and frustration."
+    ],
+    "caption": "You say, \"Just handle it the usual way,\" but the new employee has no idea what that means. Clear instructions save everyone time and frustration."
+   },
+   {
+    "num": 12,
+    "title": "Automation will not fix a confusing process",
+    "slides": [
+     "Automation will not fix a confusing process",
+     "You want an app that automatically handles customer orders.",
+     "But if nobody agrees on the current order process, the app will only move confusion faster.",
+     "First decide the steps, responsibilities and exceptions. Then choose what to automate.",
+     "Get the process right before asking technology to speed it up."
+    ],
+    "caption": "You want an app that automatically handles customer orders. Get the process right before asking technology to speed it up."
+   },
+   {
+    "num": 13,
+    "title": "Who checks that payments actually came in?",
+    "slides": [
+     "Who checks that payments actually came in?",
+     "Someone sends a payment screenshot, and the order moves immediately.",
+     "Screenshots are useful, but they are not the same as confirming funds received.",
+     "Set a clear payment-confirmation step before goods or services are released.",
+     "Good controls are not about mistrusting customers. They protect the business."
+    ],
+    "caption": "Someone sends a payment screenshot, and the order moves immediately. Good controls are not about mistrusting customers. They protect the business."
+   },
+   {
+    "num": 14,
+    "title": "Your numbers are trying to tell you something",
+    "slides": [
+     "Your numbers are trying to tell you something",
+     "Revenue looks good, but the business account is always running low.",
+     "Sales, profit and cash available are three different things.",
+     "Look at unpaid invoices, upcoming bills and actual cash each week.",
+     "Do not wait until payday to discover there is a cash problem."
+    ],
+    "caption": "Revenue looks good, but the business account is always running low. Do not wait until payday to discover there is a cash problem."
+   }
+  ]
+ },
+ {
+  "name": "SmartFinanceVic",
+  "handle": "@smartfinancevic",
+  "carousels": [
+   {
+    "num": 1,
+    "title": "Your salary came in. Where did it go?",
+    "slides": [
+     "Your salary came in. Where did it go?",
+     "You were paid on Friday. By Wednesday, you are already checking your balance.",
+     "It may not be one big expense. It could be many small ones you barely noticed.",
+     "Look at the last seven days of transactions. Group them into needs, commitments and extras.",
+     "Before you decide you need more money, find out what happened to the last one."
+    ],
+    "caption": "You were paid on Friday. By Wednesday, you are already checking your balance. Before you decide you need more money, find out what happened to the last one."
+   },
+   {
+    "num": 2,
+    "title": "she saved nothing for six months",
+    "slides": [
+     "She saved nothing for six months... why?",
+     "Every month she promised herself she would save whatever was left.",
+     "The problem was that there was never anything left.",
+     "Try setting aside a realistic amount when money arrives, then plan around the balance.",
+     "A small amount saved consistently is still a decision worth taking."
+    ],
+    "caption": "Every month she promised herself she would save whatever was left. A small amount saved consistently is still a decision worth taking."
+   },
+   {
+    "num": 3,
+    "title": "You can earn more and still feel broke",
+    "slides": [
+     "You can earn more and still feel broke",
+     "A salary increase sounds like relief. Then the subscriptions, outings and expenses grow too.",
+     "Sometimes our spending adjusts faster than our plans.",
+     "When income rises, decide in advance how much goes to saving, investing and lifestyle.",
+     "Enjoy your money. Just do not let every increase disappear without a trace."
+    ],
+    "caption": "A salary increase sounds like relief. Then the subscriptions, outings and expenses grow too. Enjoy your money. Just do not let every increase disappear without a trace."
+   },
+   {
+    "num": 4,
+    "title": "Before you invest, ask this question",
+    "slides": [
+     "Before you invest, ask this question",
+     "Someone says an investment pays a very attractive return every month.",
+     "It is tempting to focus on the profit and forget to ask how the money is made.",
+     "Ask what the investment owns, the risks, fees, liquidity and who regulates the provider.",
+     "If you cannot explain what you are investing in, slow down."
+    ],
+    "caption": "Someone says an investment pays a very attractive return every month. If you cannot explain what you are investing in, slow down."
+   },
+   {
+    "num": 5,
+    "title": "Your emergency fund is not boring",
+    "slides": [
+     "Your emergency fund is not boring",
+     "Nobody posts exciting pictures of money sitting quietly in an account.",
+     "But when your phone breaks or work is interrupted, that money suddenly matters.",
+     "Start with a manageable buffer and build towards several months of essential expenses.",
+     "Not every naira needs to chase a return. Some money is there to give you breathing room."
+    ],
+    "caption": "Nobody posts exciting pictures of money sitting quietly in an account. Not every naira needs to chase a return. Some money is there to give you breathing room."
+   },
+   {
+    "num": 6,
+    "title": "lending money you needed",
+    "slides": [
+     "lending money you needed",
+     "He wanted to help a friend, so he lent out the money meant for his rent.",
+     "Now he is uncomfortable asking for it back and worried about his own bills.",
+     "Before lending, ask whether you can manage if repayment is delayed.",
+     "Generosity is good. Putting yourself in trouble to prove it is another matter."
+    ],
+    "caption": "He wanted to help a friend, so he lent out the money meant for his rent. Generosity is good. Putting yourself in trouble to prove it is another matter."
+   },
+   {
+    "num": 7,
+    "title": "Saving and investing are not the same thing",
+    "slides": [
+     "Saving and investing are not the same thing",
+     "You have money for school fees due in two months and money for a goal five years away.",
+     "Those two amounts should not automatically go into the same place.",
+     "Match the money to the timeline and the level of risk you can afford.",
+     "The right place for your money depends on when you need it."
+    ],
+    "caption": "You have money for school fees due in two months and money for a goal five years away. The right place for your money depends on when you need it."
+   },
+   {
+    "num": 8,
+    "title": "You do not need to start investing with millions",
+    "slides": [
+     "You do not need to start investing with millions",
+     "Some people keep postponing investing because they think their money is too small.",
+     "The more important starting point is understanding the product and its risks.",
+     "Learn the basics, check fees and minimums, and begin with an amount you can afford to set aside.",
+     "Start with knowledge, not pressure to look wealthy."
+    ],
+    "caption": "Some people keep postponing investing because they think their money is too small. Start with knowledge, not pressure to look wealthy."
+   },
+   {
+    "num": 10,
+    "title": "Why your budget keeps failing",
+    "slides": [
+     "Why your budget keeps failing",
+     "You write a perfect budget on the first day of the month. By the tenth, you have abandoned it.",
+     "Maybe it does not reflect how you actually live.",
+     "Use your real spending history and leave room for irregular expenses.",
+     "A useful budget is one you can live with, not one that looks impressive on paper."
+    ],
+    "caption": "You write a perfect budget on the first day of the month. By the tenth, you have abandoned it. A useful budget is one you can live with, not one that looks impressive on paper."
+   },
+   {
+    "num": 11,
+    "title": "everyone is buying it...should you?",
+    "slides": [
+     "everyone was buying it ...",
+     "She invested because people in her group chat said they were making money.",
+     "By the time she wanted to withdraw, she realised she did not understand the rules.",
+     "Do your own checks. Read the terms, understand how withdrawals work and consider the risk of loss.",
+     "Other people's excitement is not an investment strategy."
+    ],
+    "caption": "She invested because people in her group chat said they were making money. Other people's excitement is not an investment strategy."
+   },
+   {
+    "num": 12,
+    "title": "What is your money supposed to do this year?",
+    "slides": [
+     "What is your money supposed to do this year?",
+     "You say you want to be better with money, but better can mean almost anything.",
+     "A clear goal makes it easier to choose what to do next.",
+     "Pick one target: clear a debt, build a buffer or invest towards a specific future need.",
+     "Give your money a job you can actually describe."
+    ],
+    "caption": "You say you want to be better with money, but better can mean almost anything. Give your money a job you can actually describe."
+   },
+   {
+    "num": 13,
+    "title": "Do not ignore the cost of borrowing",
+    "slides": [
+     "Do not ignore the cost of borrowing",
+     "A loan repayment looks manageable until you add up every fee and the total amount due.",
+     "The monthly payment is only one part of the story.",
+     "Compare total repayment, interest, fees, penalties and what happens if income changes.",
+     "A loan should solve a problem, not quietly create a bigger one."
+    ],
+    "caption": "A loan repayment looks manageable until you add up every fee and the total amount due. A loan should solve a problem, not quietly create a bigger one."
+   },
+   {
+    "num": 14,
+    "title": "What happens if your income stops for a while?",
+    "slides": [
+     "What happens if your income stops for a while?",
+     "It is an uncomfortable question, especially when everything seems fine.",
+     "But financial plans should work on difficult days too.",
+     "Write down essential bills, available savings and expenses you could pause if needed.",
+     "Preparing for uncertainty is not being negative. It is being realistic."
+    ],
+    "caption": "It is an uncomfortable question, especially when everything seems fine. Preparing for uncertainty is not being negative. It is being realistic."
+   },
+   {
+    "num": 15,
+    "title": "a good year, but no assets",
+    "slides": [
+     "a good year, but no assets",
+     "He earned well, travelled, bought nice things and enjoyed himself.",
+     "At year-end, he realised he had nothing set aside for his longer-term plans.",
+     "Choose a portion of income for assets and long-term goals before deciding what is left for extras.",
+     "Enjoying today and planning for tomorrow can happen together."
+    ],
+    "caption": "He earned well, travelled, bought nice things and enjoyed himself. Enjoying today and planning for tomorrow can happen together."
    }
   ]
  },
@@ -881,7 +1031,7 @@
    },
    {
     "num": 12,
-    "title": "Friendship can be simple",
+    "title": "Friendship can be simple, why complicate it?",
     "slides": [
      "Friendship can be simple",
      "Not every friendship needs constant outings or long phone calls.",
@@ -926,192 +1076,6 @@
      "A good month can include progress and enjoyment."
     ],
     "caption": "We are quick to write work targets and financial goals. A good month can include progress and enjoyment."
-   }
-  ]
- },
- {
-  "name": "Victoria Innocent",
-  "handle": "@thevictoriainnocent",
-  "carousels": [
-   {
-    "num": 1,
-    "title": "I am learning not to explain every decision",
-    "slides": [
-     "I am learning not to explain every decision",
-     "There was a time I felt I needed everyone to understand why I made a choice.",
-     "But sometimes explaining again and again only leaves me tired.",
-     "I am learning to be clear where it matters and let some things speak for themselves.",
-     "Not every decision needs a full presentation."
-    ],
-    "caption": "There was a time I felt I needed everyone to understand why I made a choice. Not every decision needs a full presentation."
-   },
-   {
-    "num": 2,
-    "title": "Some days I am productive. Some days I am just tired",
-    "slides": [
-     "Some days I am productive. Some days I am just tired",
-     "I can plan a beautiful week on Sunday and still have a completely different Tuesday.",
-     "Life does not always follow the calendar I made.",
-     "I try to move the important things forward without pretending I have endless energy.",
-     "Consistency can include adjusting the plan."
-    ],
-    "caption": "I can plan a beautiful week on Sunday and still have a completely different Tuesday. Consistency can include adjusting the plan."
-   },
-   {
-    "num": 3,
-    "title": "Building something while working full-time is a lot",
-    "slides": [
-     "Building something while working full-time is a lot",
-     "There are ideas in my notes, things I want to launch and work waiting for me too.",
-     "The difficult part is not always a lack of ideas. It is finding time to execute them.",
-     "I am learning to choose what matters this week instead of trying to finish everything today.",
-     "Small progress still counts when your plate is full."
-    ],
-    "caption": "There are ideas in my notes, things I want to launch and work waiting for me too. Small progress still counts when your plate is full."
-   },
-   {
-    "num": 4,
-    "title": "I have stopped waiting for everything to be perfect",
-    "slides": [
-     "I have stopped waiting for everything to be perfect",
-     "I can spend so much time planning a project that I almost forget to start it.",
-     "There is always another detail to fix or another thing to learn.",
-     "These days, I would rather begin with a workable version and improve as I go.",
-     "Sometimes starting teaches you what planning cannot."
-    ],
-    "caption": "I can spend so much time planning a project that I almost forget to start it. Sometimes starting teaches you what planning cannot."
-   },
-   {
-    "num": 5,
-    "title": "I like having ideas. Execution is another story",
-    "slides": [
-     "I like having ideas. Execution is another story",
-     "My brain can give me five new business ideas before breakfast.",
-     "But an idea only becomes something real when I give it time, money and attention.",
-     "So I am trying to finish more of what I start before chasing the next exciting thing.",
-     "An idea is fun. Building it is the actual work."
-    ],
-    "caption": "My brain can give me five new business ideas before breakfast. An idea is fun. Building it is the actual work."
-   },
-   {
-    "num": 6,
-    "title": "I am learning to keep work at work",
-    "slides": [
-     "I am learning to keep work at work",
-     "It is easy to carry one awkward conversation into the rest of your evening.",
-     "Suddenly, you are home but still mentally sitting in that meeting.",
-     "I am trying to do my job well, address what needs addressing and leave the rest there.",
-     "My whole life cannot revolve around one workday."
-    ],
-    "caption": "It is easy to carry one awkward conversation into the rest of your evening. My whole life cannot revolve around one workday."
-   },
-   {
-    "num": 7,
-    "title": "Nobody tells you how many tabs adulthood opens",
-    "slides": [
-     "Nobody tells you how many tabs adulthood opens",
-     "There is work, bills, family, goals, messages and that one thing you keep forgetting to do.",
-     "Sometimes I laugh because how is everyone keeping up with all of this?",
-     "I have started writing things down and deciding what can actually wait.",
-     "Being an adult seems to involve a lot of remembering."
-    ],
-    "caption": "There is work, bills, family, goals, messages and that one thing you keep forgetting to do. Being an adult seems to involve a lot of remembering."
-   },
-   {
-    "num": 8,
-    "title": "I am trying to enjoy the process too",
-    "slides": [
-     "I am trying to enjoy the process too",
-     "I can get so focused on what is next that I barely notice what is happening now.",
-     "There will probably always be another milestone after this one.",
-     "So I am making an effort to celebrate the little things without waiting for the big announcement.",
-     "I want to remember the journey, not only the results."
-    ],
-    "caption": "I can get so focused on what is next that I barely notice what is happening now. I want to remember the journey, not only the results."
-   },
-   {
-    "num": 9,
-    "title": "Sometimes the best plan is to mind your business",
-    "slides": [
-     "Sometimes the best plan is to mind your business",
-     "Not in a rude way. Just in the sense of focusing on what you can actually control.",
-     "You can spend so much energy guessing what other people think.",
-     "I would rather put that energy into my work, my growth and the things I am building.",
-     "Peace can look like fewer unnecessary explanations."
-    ],
-    "caption": "Not in a rude way. Just in the sense of focusing on what you can actually control. Peace can look like fewer unnecessary explanations."
-   },
-   {
-    "num": 10,
-    "title": "I am not interested in looking busy anymore",
-    "slides": [
-     "I am not interested in looking busy anymore",
-     "There is something about having a packed calendar that makes you feel important.",
-     "But a busy week does not always mean you made meaningful progress.",
-     "I am paying more attention to what I finished and what actually moved forward.",
-     "I would rather have results than a dramatic to-do list."
-    ],
-    "caption": "There is something about having a packed calendar that makes you feel important. I would rather have results than a dramatic to-do list."
-   },
-   {
-    "num": 11,
-    "title": "I have learned that money needs attention",
-    "slides": [
-     "I have learned that money needs attention",
-     "It is possible to work hard for money and still avoid looking closely at your spending.",
-     "I have realised that ignoring the numbers does not make them less important.",
-     "I am trying to make more intentional decisions instead of checking my balance only when I am worried.",
-     "Money conversations should be part of everyday life."
-    ],
-    "caption": "It is possible to work hard for money and still avoid looking closely at your spending. Money conversations should be part of everyday life."
-   },
-   {
-    "num": 12,
-    "title": "I am allowed to change my mind",
-    "slides": [
-     "I am allowed to change my mind",
-     "Sometimes an idea made sense six months ago and no longer fits where I am now.",
-     "That does not automatically mean the first decision was foolish.",
-     "I can look at what I have learned and make a different choice.",
-     "Growth sometimes looks like changing the plan."
-    ],
-    "caption": "Sometimes an idea made sense six months ago and no longer fits where I am now. Growth sometimes looks like changing the plan."
-   },
-   {
-    "num": 13,
-    "title": "My notes app knows too much",
-    "slides": [
-     "My notes app knows too much",
-     "Business ideas, random thoughts, captions, reminders and things I want to buy are all living there.",
-     "Half the challenge is remembering which note has the thing I need.",
-     "I am learning to turn the useful ideas into actual next steps instead of just collecting them.",
-     "A note is not a project until something happens with it."
-    ],
-    "caption": "Business ideas, random thoughts, captions, reminders and things I want to buy are all living there. A note is not a project until something happens with it."
-   },
-   {
-    "num": 14,
-    "title": "You can be ambitious and still need a quiet day",
-    "slides": [
-     "You can be ambitious and still need a quiet day",
-     "I want to do a lot with my life. That part has not changed.",
-     "But I am also learning that I cannot treat every free hour like a work opportunity.",
-     "Sometimes I need to rest, see people I love or do absolutely nothing important.",
-     "Ambition and enjoyment can exist in the same life."
-    ],
-    "caption": "I want to do a lot with my life. That part has not changed. Ambition and enjoyment can exist in the same life."
-   },
-   {
-    "num": 15,
-    "title": "I want to look back and know I actually tried",
-    "slides": [
-     "I want to look back and know I actually tried",
-     "There are so many things I am curious about building and learning.",
-     "Not all of them will work, and I am making peace with that.",
-     "What matters to me is giving the important ones a real chance, not only talking about them.",
-     "I would rather learn from trying than keep wondering."
-    ],
-    "caption": "There are so many things I am curious about building and learning. I would rather learn from trying than keep wondering."
    }
   ]
  },

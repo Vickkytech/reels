@@ -1,6 +1,7 @@
 # Brand carousels
 
-Instagram carousels, 1080×1350 PNG: 15 five-slide carousels for six brands, and 20 seven-slide carousels for Leverage AI Studio.
+Instagram carousels, 1080×1350 PNG. Five-slide carousels for six brands (13–15 each, from the edited
+*105 Brand Carousels* brief), and 20 seven-slide carousels for Leverage AI Studio.
 Copy comes from *105 Brand Carousels – Natural & Conversational* (October 2026); slide 1 is each carousel's title.
 
 | Brand | Folder | Handle |
@@ -23,11 +24,15 @@ Each brand folder holds `NN-title/slide-01.png … slide-05.png` plus `captions.
 4. Try this – the action, in a brand-colour card
 5. Remember – the takeaway on a dark slide, with "Save this for later"
 
-## Victoria Innocent
+## Five-slide brands
 
-Uses `build/template-photo.html` in plain-background mode (`themes` in `build/brands.mjs`): no photos.
-Burgundy, cream and gold take turns slide by slide, so each carousel's cover colour differs from the
-one before it. The closing sentence of a slide is highlighted in the accent colour.
+PAVA, SmartFinanceVic, SheEarns Initiative, The Calming Experience, Tenye Home & Fragrance and
+Victoria Innocent use `build/template-photo.html` in plain-background mode: no photos. Each brand
+has three colour themes (`themes` in `build/brands.mjs`) that take turns slide by slide, so each
+carousel's cover colour differs from the one before it. Slide 1 always shows the carousel title.
+The closing sentence of a slide is highlighted in the accent colour (underlined on the bright
+middle theme). Logos switch between colour, white and a one-colour dark version
+(`assets/logos/*-dark.png`) to stay legible on each background.
 
 ## Leverage AI Studio
 

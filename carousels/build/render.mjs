@@ -25,6 +25,10 @@ const [onlyBrand, onlyNum] = process.argv.slice(2);
 // Typographic quotes for display text.
 const smarten = (t) => t.replace(/"([^"]*)"/g, "\u201C$1\u201D").replace(/'/g, "\u2019");
 
+// Slide 1 always shows the carousel title, capitalised, with a proper ellipsis.
+const titleCase = (t) =>
+  (t.charAt(0).toUpperCase() + t.slice(1)).replace(/\s*\.{3}\s*/g, "\u2026 ").trim();
+
 const slugify = (s) => {
   const slug = s.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
   return slug.length <= 48 ? slug : slug.slice(0, 49).replace(/-[^-]*$/, "");
@@ -55,7 +59,7 @@ for (const [b, entry] of content.entries()) {
     for (let i = 0; i < c.slides.length; i++) {
       const res = await page.evaluate((d) => window.render(d), {
         brand,
-        slides: c.slides.map(smarten),
+        slides: [titleCase(c.title), ...c.slides.slice(1)].map(smarten),
         index: i,
         handle: entry.handle,
         // Plain mode: no photos; every slide takes the next colour theme so covers rotate too.
@@ -63,7 +67,7 @@ for (const [b, entry] of content.entries()) {
         // Photo mode covers cycle: sticker on brand colour, full-bleed photo, sticker on light.
         format: brand.themes ? "plain" : ["sticker", "full", "sticker"][(c.num - 1) % 3],
         scheme: (c.num - 1) % 3 === 2 ? "b" : "a",
-        teaser: brand.bold?.teasers?.[(c.num - 1) % brand.bold.teasers.length],
+        teaser: (brand.teasers || brand.bold?.teasers)?.[(c.num - 1) % 3],
         photo: `photo-${pad2(((c.num - 1) % PHOTOS) + 1)}.jpg`,
         focus: FOCUS[(c.num - 1) % PHOTOS],
         sticker: `sticker-${pad2(((c.num - 1) % PHOTOS) + 1)}.png`,

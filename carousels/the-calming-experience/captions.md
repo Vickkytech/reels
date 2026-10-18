@@ -44,7 +44,7 @@ Putting pictures on a board can be exciting. But the pictures will not do the wo
 
 You arrive somewhere lovely and spend most of the time trying to get the perfect video. Some moments deserve your full attention.
 
-## 12. Friendship can be simple
+## 12. Friendship can be simple, why complicate it?
 
 Not every friendship needs constant outings or long phone calls. Little moments of care count too.
 

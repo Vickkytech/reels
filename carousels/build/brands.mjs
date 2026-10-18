@@ -8,7 +8,7 @@ export const brands = {
     bold: { strong: "#6E1F33", accent: "#F5C451", light: "#F8F3EE", lightInk: "#2A1A1E", lightAccent: "#8E2A42", teasers: [["Here’s what I’m", "learning"], ["Let me be", "honest"], ["Real", "talk"]] },
     // Plain backgrounds, no photos: burgundy, cream and gold take turns (covers included).
     themes: [
-      { bg: "#6E1F33", fg: "#FFFFFF", accent: "#F5C451", tagInk: "#6E1F33", whiteLogo: true },
+      { bg: "#6E1F33", fg: "#FFFFFF", accent: "#F5C451", tagInk: "#6E1F33", logo: "white" },
       { bg: "#F8F3EE", fg: "#2A1A1E", accent: "#8E2A42", tagInk: "#FFFFFF" },
       { bg: "#F5C451", fg: "#3A1220", accent: "#6E1F33", tagInk: "#FFFFFF" },
     ],
@@ -20,6 +20,14 @@ export const brands = {
   },
   PAVA: {
     slug: "pava",
+    template: "template-photo.html",
+    // Plain backgrounds: these three colours take turns slide by slide, so covers alternate.
+    themes: [
+      { bg: "#0B2A5B", fg: "#FFFFFF", accent: "#F7944A", tagInk: "#0B2A5B", logo: "white" },
+      { bg: "#F7944A", fg: "#0B2A5B", accent: "#0B2A5B", tagInk: "#FFFFFF", mark: "#FFFFFF", logo: "dark" },
+      { bg: "#F7F7F7", fg: "#0B2A5B", accent: "#D96A24", tagInk: "#FFFFFF", logo: "color" },
+    ],
+    teasers: [["Here’s what to", "fix"], ["A quick", "business check"], ["Let’s", "sort it out"]],
     bold: { strong: "#0B2A5B", accent: "#F7944A", light: "#F7F7F7", lightInk: "#0B2A5B", lightAccent: "#D96A24", teaser: ["Here’s what to", "fix"] },
     logo: "pava",
     logoHeight: 84,
@@ -42,6 +50,14 @@ export const brands = {
   },
   SmartFinanceVic: {
     slug: "smartfinancevic",
+    template: "template-photo.html",
+    // Plain backgrounds: these three colours take turns slide by slide, so covers alternate.
+    themes: [
+      { bg: "#0A49A0", fg: "#FFFFFF", accent: "#F2C14E", tagInk: "#0A49A0", logo: "white" },
+      { bg: "#F2C14E", fg: "#0A3F8C", accent: "#0A3F8C", tagInk: "#FFFFFF", mark: "#FFFFFF", logo: "dark" },
+      { bg: "#FFFFFF", fg: "#0A3F8C", accent: "#A67406", tagInk: "#FFFFFF", logo: "color" },
+    ],
+    teasers: [["Here’s what to", "check"], ["A quick", "money check"], ["Let’s talk", "money"]],
     bold: { strong: "#0A49A0", accent: "#F2C14E", light: "#F6F7FA", lightInk: "#0A3F8C", lightAccent: "#A67406", teaser: ["Here’s what to", "check"] },
     logo: "sfv",
     logoHeight: 58,
@@ -86,6 +102,14 @@ export const brands = {
   },
   "SheEarns Initiative": {
     slug: "sheearns-initiative",
+    template: "template-photo.html",
+    // Plain backgrounds: these three colours take turns slide by slide, so covers alternate.
+    themes: [
+      { bg: "#1A2C4C", fg: "#FFFFFF", accent: "#E59475", tagInk: "#1A2C4C", logo: "white" },
+      { bg: "#C9684A", fg: "#FFFFFF", accent: "#1A2C4C", tagInk: "#FFFFFF", mark: "#1A2C4C", logo: "white" },
+      { bg: "#FBF7F0", fg: "#1A2C4C", accent: "#B4583B", tagInk: "#FFFFFF", logo: "color" },
+    ],
+    teasers: [["Read this", "first"], ["Your next", "step"], ["Start", "where you are"]],
     bold: { strong: "#1A2C4C", accent: "#E59475", light: "#FBF7F0", lightInk: "#1A2C4C", lightAccent: "#B4583B", teaser: ["Read this", "first"] },
     logo: "sheearns",
     logoHeight: 92,
@@ -107,6 +131,14 @@ export const brands = {
   },
   "The Calming Experience": {
     slug: "the-calming-experience",
+    template: "template-photo.html",
+    // Plain backgrounds: these three colours take turns slide by slide, so covers alternate.
+    themes: [
+      { bg: "#4F4A3E", fg: "#F5EFE3", accent: "#C9D3AF", tagInk: "#4F4A3E", logo: "white" },
+      { bg: "#B7C2A3", fg: "#2F2F28", accent: "#5B4A3A", tagInk: "#FFFFFF", logo: "dark" },
+      { bg: "#F5EFE3", fg: "#3E3E35", accent: "#7D6650", tagInk: "#FFFFFF", logo: "color" },
+    ],
+    teasers: [["A gentle", "reminder"], ["Something to", "think about"], ["Slow down", "a little"]],
     bold: { strong: "#4F4A3E", accent: "#C9D3AF", light: "#F5EFE3", lightInk: "#3E3E35", lightAccent: "#7D6650", teaser: ["A gentle", "reminder"] },
     logo: "calming",
     logoHeight: 78,
@@ -129,6 +161,14 @@ export const brands = {
   },
   "Tenye Home & Fragrance": {
     slug: "tenye-home-and-fragrance",
+    template: "template-photo.html",
+    // Plain backgrounds: these three colours take turns slide by slide, so covers alternate.
+    themes: [
+      { bg: "#8A4527", fg: "#FAF2E8", accent: "#F6D2B0", tagInk: "#8A4527", logo: "white" },
+      { bg: "#E9C9AE", fg: "#4A2414", accent: "#8A4527", tagInk: "#FFFFFF", logo: "dark" },
+      { bg: "#FAF2E8", fg: "#6E3520", accent: "#A9583A", tagInk: "#FFFFFF", logo: "color" },
+    ],
+    teasers: [["A little", "home tip"], ["For a", "cosier home"], ["Scent", "notes"]],
     bold: { strong: "#8A4527", accent: "#F6D2B0", light: "#FAF2E8", lightInk: "#6E3520", lightAccent: "#A9583A", teaser: ["A little", "home tip"] },
     logo: "tenye",
     logoHeight: 92,
