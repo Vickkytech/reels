@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../assets/fonts/local.css">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1080px; height: 1350px; overflow: hidden; }
+  #slide { position: relative; width: 1080px; height: 1350px; overflow: hidden; background: var(--bg); color: var(--fg);
+    font-family: Montserrat, sans-serif; }
+  .abs { position: absolute; }
+  .logo { left: 84px; top: 72px; height: 80px; width: auto; z-index: 5; }
+  .count { right: 84px; top: 96px; font-weight: 600; font-size: 26px; letter-spacing: 3px; opacity: .75; }
+  .chip { display: inline-block; padding: 14px 28px; border-radius: 40px; border: 2px solid var(--accent); color: var(--accent);
+    font-weight: 700; font-size: 26px; letter-spacing: 4px; text-transform: uppercase; }
+  .title { font-weight: 800; letter-spacing: -0.025em; line-height: 1.02; }
+  .head { font-weight: 800; letter-spacing: -0.02em; line-height: 1.08; }
+  .body { font-weight: 500; line-height: 1.38; color: var(--muted); }
+  .accent { color: var(--accent); }
+  .num { font-weight: 800; font-size: 190px; line-height: .8; letter-spacing: -0.05em; color: var(--accent); }
+  .card { background: var(--card); border-radius: 28px; padding: 44px 48px; border-left: 10px solid var(--accent); }
+  .card-label { font-weight: 800; font-size: 24px; letter-spacing: 4px; text-transform: uppercase; color: var(--accent); margin-bottom: 18px; }
+  .handle { left: 84px; bottom: 74px; font-weight: 600; font-size: 26px; opacity: .8; }
+  .swipe { right: 84px; bottom: 66px; display: flex; align-items: center; gap: 12px; font-weight: 700; font-size: 28px;
+    letter-spacing: 2px; text-transform: uppercase; }
+  .swipe svg { width: 46px; height: 46px; }
+  .dots { left: 84px; bottom: 140px; display: flex; gap: 10px; }
+  .dots i { display: block; width: 40px; height: 8px; border-radius: 4px; background: var(--fg); opacity: .2; }
+  .dots i.on { background: var(--accent); opacity: 1; width: 72px; }
+  .save { display: inline-flex; align-items: center; gap: 16px; font-weight: 700; font-size: 30px; letter-spacing: 2px;
+    text-transform: uppercase; color: var(--accent); }
+  .save svg { width: 40px; height: 40px; }
+</style>
+</head>
+<body>
+<div id="slide"></div>
+<script>
+const ICON = {
+  arrow: '<circle cx="24" cy="24" r="20"/><path d="M14 24h19M26 16l8 8-8 8"/>',
+  bookmark: '<path d="M13 6h22v36l-11-8-11 8z"/>',
+};
+const svg = (n, c, w = 3.5) => `<svg viewBox="0 0 48 48" fill="none" stroke="${c}" stroke-width="${w}" stroke-linecap="round" stroke-linejoin="round">${ICON[n]}</svg>`;
+
+// The oversized "V" from the Leverage wordmark, used as a quiet background motif.
+const chevron = (color, style) =>
+  `<svg class="abs" style="${style}" viewBox="0 0 100 100" fill="none" stroke="${color}" stroke-width="2.2" stroke-linejoin="round"><path d="M8 10 L50 92 L92 10 L74 10 L50 58 L26 10 Z"/></svg>`;
+
+// Bodies that quote a prompt or example go in a card.
+function splitPrompt(body) {
+  const m = body.match(/^(Try|Prompt|Example|Examples|Ask|Message|Reply)[^:]{0,20}:\s*(.+)$/);
+  if (m && /“/.test(m[2])) return { label: m[1], text: m[2] };
+  return body.startsWith('“') ? { label: 'Example', text: body } : null;
+}
+
+function fit(el, max, min, limitH) {
+  let s = max;
+  el.style.fontSize = s + 'px';
+  while (s > min && el.offsetHeight > limitH) { s -= 2; el.style.fontSize = s + 'px'; }
+  return el.offsetHeight > limitH;
+}
+
+window.render = async ({ brand: b, carousel: c, index, handle, theme }) => {
+  const el = document.getElementById('slide');
+  const n = index + 1, total = c.slides.length;
+  const s = c.slides[index];
+  for (const [k, v] of Object.entries({ bg: theme.bg, fg: theme.fg, accent: theme.accent, muted: theme.muted, card: theme.card }))
+    el.style.setProperty('--' + k, v);
+  const logo = `<img class="abs logo" src="../assets/logos/${b.logo}${theme.whiteLogo ? '-white' : ''}.png">`;
+  const count = `<div class="abs count">${String(n).padStart(2, '0')} / ${String(total).padStart(2, '0')}</div>`;
+  const swipe = `<div class="abs swipe">${n === 1 ? 'Swipe' : 'Next'} ${svg('arrow', theme.fg)}</div>`;
+  const handleEl = `<div class="abs handle">${handle}</div>`;
+  let html, checks;
+
+  if (n === 1) {
+    html = `${chevron(theme.accent, 'right:-170px;top:330px;width:760px;height:760px;opacity:.22')}
+      ${logo}
+      <div class="abs" style="left:84px;top:220px;width:912px">
+        <div class="chip">${c.pillar}</div>
+        <div class="title" id="t" style="margin-top:44px">${c.title}</div>
+      </div>
+      <div class="abs" id="sub" style="left:84px;bottom:170px;width:760px">
+        <div class="head accent" id="h" style="font-size:46px">${s.head}</div>
+        <div class="body" id="b" style="font-size:32px;margin-top:20px">${s.body}</div>
+      </div>
+      ${handleEl}${swipe}`;
+    checks = [['t', 112, 64, 470], ['h', 46, 34, 200], ['b', 32, 26, 140]];
+  } else if (n === total) {
+    const save = /save/i.test(s.head + s.body) ? '' : `<div class="save" style="margin-top:56px">${svg('bookmark', theme.accent, 4)}Save this for later</div>`;
+    html = `${chevron(theme.accent, 'left:50%;bottom:-260px;width:820px;height:820px;transform:translateX(-50%);opacity:.18')}
+      ${logo}${count}
+      <div class="abs" style="left:84px;right:84px;top:300px">
+        <div style="width:140px;height:12px;border-radius:6px;background:${theme.accent};margin-bottom:56px"></div>
+        <div class="head" id="h">${s.head}</div>
+        <div class="body" id="b" style="margin-top:36px">${s.body}</div>
+        ${save}
+      </div>
+      ${handleEl}`;
+    checks = [['h', 88, 52, 400], ['b', 42, 30, 220]];
+  } else {
+    const step = n - 1;
+    const head = s.head.replace(/^Step \d+:\s*/i, '');
+    const head2 = head.charAt(0).toUpperCase() + head.slice(1);
+    const p = splitPrompt(s.body);
+    const bodyHtml = p
+      ? `<div class="card" style="margin-top:44px"><div class="card-label">${p.label}</div><div class="body" id="b" style="color:${theme.fg}">${p.text}</div></div>`
+      : `<div class="body" id="b" style="margin-top:36px">${s.body}</div>`;
+    const right = step % 2 === 0;
+    html = `${logo}${count}
+      <div class="abs num" style="${right ? 'right:70px' : 'left:76px'};top:230px">${String(step).padStart(2, '0')}</div>
+      <div class="abs" style="left:84px;right:84px;top:430px;bottom:190px;display:flex;flex-direction:column;justify-content:center"><div>
+        <div class="head" id="h">${head2}</div>
+        ${bodyHtml}
+      </div></div>
+      <div class="abs dots">${Array.from({ length: total - 2 }, (_, i) => `<i class="${i === step - 1 ? 'on' : ''}"></i>`).join('')}</div>
+      ${handleEl}${swipe}`;
+    checks = [['h', 88, 52, 300], ['b', p ? 42 : 48, 30, p ? 340 : 320]];
+  }
+  el.innerHTML = html;
+  await Promise.all([...el.querySelectorAll('img')].map(i => i.complete ? 0 : new Promise(r => { i.onload = i.onerror = r; })));
+  await document.fonts.ready;
+  const over = checks.map(([id, ...a]) => fit(document.getElementById(id), ...a)).some(Boolean);
+  return { overflow: over };
+};
+</script>
+</body>
+</html>

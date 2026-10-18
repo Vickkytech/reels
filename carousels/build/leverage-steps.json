@@ -1,0 +1,702 @@
+[
+ {
+  "num": 1,
+  "title": "How to turn one product photo into 10 campaign creatives",
+  "pillar": "Campaign",
+  "slides": [
+   {
+    "head": "One photo. Ten ways to sell the same product.",
+    "body": "You do not need a new photoshoot every time you want to promote something."
+   },
+   {
+    "head": "Start with a clean product photo",
+    "body": "Use a clear image with the label and packaging visible. Keep this as your product reference."
+   },
+   {
+    "head": "Ask AI for 10 directions",
+    "body": "Try: \"Suggest 10 ad concepts for this body lotion. Include a setting, mood, customer, and headline for each.\""
+   },
+   {
+    "head": "Choose 3 that suit your customers",
+    "body": "For example: bathroom shelf, morning routine, and gift box. More ideas are not always better ideas."
+   },
+   {
+    "head": "Generate and check each creative",
+    "body": "Keep the original packaging accurate. Check labels, spelling, product shape, and claims before posting."
+   },
+   {
+    "head": "Make each image do a job",
+    "body": "Use one to introduce the product, another to show a use case, and another to promote an offer."
+   },
+   {
+    "head": "Try it with one product this week",
+    "body": "Save this workflow and tag @leverageaistudio when you try it."
+   }
+  ]
+ },
+ {
+  "num": 2,
+  "title": "Plan 30 days of marketing content with AI",
+  "pillar": "Campaign",
+  "slides": [
+   {
+    "head": "Posting every day is not a marketing plan.",
+    "body": "Start with what you want the content to achieve."
+   },
+   {
+    "head": "Give AI the business context",
+    "body": "Share your product, price range, audience, most common customer question, and monthly goal."
+   },
+   {
+    "head": "Ask for four weekly themes",
+    "body": "Example: problem awareness, product education, proof, and purchase decisions."
+   },
+   {
+    "head": "Turn themes into specific posts",
+    "body": "Request 12 reels, 8 carousels and 10 stories. Ask for the message and next action for each."
+   },
+   {
+    "head": "Make it sound like your business",
+    "body": "Replace generic phrases with what customers actually say. Add your offers, prices, and examples."
+   },
+   {
+    "head": "Batch the work",
+    "body": "Write scripts first, create assets next, then schedule. Review performance at the end of each week."
+   },
+   {
+    "head": "Start with this prompt",
+    "body": "\"Build a 30-day plan for [business] targeting [customer] with a goal of [goal]. Make every post practical.\""
+   }
+  ]
+ },
+ {
+  "num": 3,
+  "title": "Create a product video ad without a studio",
+  "pillar": "Campaign",
+  "slides": [
+   {
+    "head": "Your product ad can start on your desk.",
+    "body": "A simple photo can become the starting point for a short video campaign."
+   },
+   {
+    "head": "Decide on one message",
+    "body": "Example: \"Make your room feel welcoming after a long day.\" Avoid trying to say everything."
+   },
+   {
+    "head": "Write a 15-second script",
+    "body": "0–3s: hook. 4–10s: product experience. 11–15s: product name and call to action."
+   },
+   {
+    "head": "Build three visual shots",
+    "body": "A product close-up, an in-use scene, and a final branded product shot."
+   },
+   {
+    "head": "Animate carefully",
+    "body": "Use subtle camera movement. Check that the AI does not change the label, cap, or packaging."
+   },
+   {
+    "head": "Add the finishing touches",
+    "body": "Use readable captions, music you have rights to, and a simple \"Shop now\" or \"Send us a message.\""
+   },
+   {
+    "head": "Before you publish",
+    "body": "Watch without sound. Can someone still understand the offer? Save this checklist."
+   }
+  ]
+ },
+ {
+  "num": 4,
+  "title": "Build a launch campaign for a new product",
+  "pillar": "Campaign",
+  "slides": [
+   {
+    "head": "A launch should not be one \"We are live\" post.",
+    "body": "Give people a reason to notice the product before launch day."
+   },
+   {
+    "head": "Seven days before: create curiosity",
+    "body": "Share the problem the product solves, behind-the-scenes work, or a partial reveal."
+   },
+   {
+    "head": "Four days before: explain the product",
+    "body": "Show the features, how it is used, and who it is for."
+   },
+   {
+    "head": "Two days before: answer objections",
+    "body": "Cover price, delivery areas, availability, and questions customers are likely to ask."
+   },
+   {
+    "head": "Launch day: make buying simple",
+    "body": "Use one main offer, clear photos, working checkout links, and a direct call to action."
+   },
+   {
+    "head": "After launch: keep talking",
+    "body": "Share FAQs, feedback, demonstrations, and reminders rather than disappearing."
+   },
+   {
+    "head": "AI can help you organise it",
+    "body": "Ask for a seven-day timeline, then check and personalise every claim and detail."
+   }
+  ]
+ },
+ {
+  "num": 5,
+  "title": "Create five ad angles for the same product",
+  "pillar": "Campaign",
+  "slides": [
+   {
+    "head": "Same product. Different reasons people buy.",
+    "body": "One caption cannot speak to every customer need."
+   },
+   {
+    "head": "Angle 1: solve a problem",
+    "body": "Example for bedsheets: \"Tired of waking up on rough fabric?\""
+   },
+   {
+    "head": "Angle 2: show the experience",
+    "body": "Focus on what a restful, comfortable bedroom feels like."
+   },
+   {
+    "head": "Angle 3: demonstrate the use",
+    "body": "Show how the product looks on an actual bed, not just in packaging."
+   },
+   {
+    "head": "Angle 4: use proof",
+    "body": "Share genuine customer feedback, with permission. Do not invent testimonials."
+   },
+   {
+    "head": "Angle 5: make the offer clear",
+    "body": "Explain available sizes, prices, delivery and how to order."
+   },
+   {
+    "head": "Test the angles",
+    "body": "Change one message at a time. Compare enquiries, clicks and sales—not just likes."
+   }
+  ]
+ },
+ {
+  "num": 6,
+  "title": "Create a small-budget campaign for a local business",
+  "pillar": "Campaign",
+  "slides": [
+   {
+    "head": "You do not need a huge budget to run a thoughtful campaign.",
+    "body": "You need a clear customer, a clear offer, and useful content."
+   },
+   {
+    "head": "Pick one product to promote",
+    "body": "Choose something customers understand and that you can fulfil reliably."
+   },
+   {
+    "head": "Use what you already have",
+    "body": "A phone photo, customer questions, short demonstrations and existing reviews are enough to start."
+   },
+   {
+    "head": "Ask AI to build your message",
+    "body": "Request three hooks, a 20-second video script and five captions for that one product."
+   },
+   {
+    "head": "Create only the assets you need",
+    "body": "One video, one carousel and three story slides are a reasonable first campaign."
+   },
+   {
+    "head": "Track actual responses",
+    "body": "Record messages, orders and costs in a simple sheet. Learn before spending more."
+   },
+   {
+    "head": "Small campaign, clear result",
+    "body": "Start with one week and improve what is working."
+   }
+  ]
+ },
+ {
+  "num": 7,
+  "title": "How to Keep AI-generated brand visuals consistent",
+  "pillar": "Campaign",
+  "slides": [
+   {
+    "head": "Ever notice your AI product looks different in every image?",
+    "body": "That makes a brand feel less trustworthy."
+   },
+   {
+    "head": "Create a short visual guide",
+    "body": "Record your colors, logo rules, product dimensions, packaging and preferred photography style."
+   },
+   {
+    "head": "Use a reference image",
+    "body": "Upload a real product photo whenever the tool permits. Ask AI not to redesign the packaging."
+   },
+   {
+    "head": "Repeat the details that matter",
+    "body": "Mention the same lighting, lens feel, background palette and brand mood in each prompt."
+   },
+   {
+    "head": "Check for mistakes",
+    "body": "Look closely at text, labels, logos, skin details, shadows and extra objects."
+   },
+   {
+    "head": "Keep a reference folder",
+    "body": "Save approved examples and reusable prompts to make the next campaign quicker."
+   },
+   {
+    "head": "Consistency is deliberate",
+    "body": "AI helps create options. You still decide what looks like your brand."
+   }
+  ]
+ },
+ {
+  "num": 8,
+  "title": "Turn customer questions into a campaign",
+  "pillar": "Campaign",
+  "slides": [
+   {
+    "head": "Your next content ideas may already be in your DMs.",
+    "body": "People are telling you what they want to know."
+   },
+   {
+    "head": "Collect 10 real questions",
+    "body": "Look at comments, WhatsApp chats, sales calls and customer enquiries."
+   },
+   {
+    "head": "Group similar questions",
+    "body": "For example: pricing, how it works, delivery, quality, and who it is suitable for."
+   },
+   {
+    "head": "Ask AI to shape the answers",
+    "body": "\"Turn these customer questions into five educational posts. Keep the answers clear and avoid exaggerated claims.\""
+   },
+   {
+    "head": "Choose the right format",
+    "body": "Use a reel for demonstrations, a carousel for explanations, and stories for quick answers."
+   },
+   {
+    "head": "End with the next step",
+    "body": "Tell people where to order, ask questions or see the full product details."
+   },
+   {
+    "head": "Use real customer language",
+    "body": "Do not replace clear everyday wording with complicated marketing terms."
+   }
+  ]
+ },
+ {
+  "num": 9,
+  "title": "Plan an AI brand ambassador campaign",
+  "pillar": "Campaign",
+  "slides": [
+   {
+    "head": "An AI face alone is not a brand strategy.",
+    "body": "A consistent character needs a clear role in your campaign."
+   },
+   {
+    "head": "Decide what the character does",
+    "body": "Will they explain your product, act in fictional scenes, or demonstrate a routine?"
+   },
+   {
+    "head": "Create a character guide",
+    "body": "Specify appearance, clothing style, voice, personality, and things the character must never claim."
+   },
+   {
+    "head": "Plan three repeatable scenes",
+    "body": "Example: product introduction, common customer question, and short lifestyle story."
+   },
+   {
+    "head": "Keep people informed",
+    "body": "Do not portray the character as a real customer or make up personal results."
+   },
+   {
+    "head": "Review every video",
+    "body": "Check product accuracy, lip-sync, captions, and brand fit."
+   },
+   {
+    "head": "Build trust, not confusion",
+    "body": "Use AI creatively while being transparent about synthetic people."
+   }
+  ]
+ },
+ {
+  "num": 10,
+  "title": "How to automatically save customer enquiries into Google Sheets",
+  "pillar": "Automation",
+  "slides": [
+   {
+    "head": "Still copying enquiries into a notebook?",
+    "body": "A simple form can help you keep them in one place."
+   },
+   {
+    "head": "Create your enquiry form",
+    "body": "Ask only what you need: name, contact, product or service, and message."
+   },
+   {
+    "head": "Connect it to a spreadsheet",
+    "body": "Google Forms can save responses directly to a linked Google Sheet."
+   },
+   {
+    "head": "Organise the columns",
+    "body": "Add enquiry date, source, status, assigned person and next follow-up date."
+   },
+   {
+    "head": "Set up an alert if needed",
+    "body": "Use a supported automation tool to notify you when a new row arrives."
+   },
+   {
+    "head": "Test with a fake enquiry",
+    "body": "Check that the details arrive correctly and that no one else can see private customer data."
+   },
+   {
+    "head": "Now you have a basic lead tracker",
+    "body": "Start here before paying for a complex CRM."
+   }
+  ]
+ },
+ {
+  "num": 11,
+  "title": "Build a simple customer follow-up system",
+  "pillar": "Automation",
+  "slides": [
+   {
+    "head": "Interested customers sometimes need a follow-up.",
+    "body": "The difficult part is remembering who to contact and when."
+   },
+   {
+    "head": "Create three clear statuses",
+    "body": "New enquiry, waiting for response, and closed. Keep it simple."
+   },
+   {
+    "head": "Add a next-action date",
+    "body": "Record when the next message should go out and what the customer asked about."
+   },
+   {
+    "head": "Choose what can be automated",
+    "body": "Send yourself reminders or draft a follow-up message. Review it before sending."
+   },
+   {
+    "head": "Write a human follow-up",
+    "body": "\"Hi Ada, checking whether you still need help choosing a size. Happy to answer any questions.\""
+   },
+   {
+    "head": "Respect customer preferences",
+    "body": "Do not send repeated unwanted messages. Include a way to opt out of promotional contact."
+   },
+   {
+    "head": "Track what happens",
+    "body": "Mark replies and sales. The goal is better service, not more messages."
+   }
+  ]
+ },
+ {
+  "num": 12,
+  "title": "Automate appointment confirmations and reminders",
+  "pillar": "Automation",
+  "slides": [
+   {
+    "head": "Double bookings and forgotten calls are avoidable.",
+    "body": "Your booking page can handle the routine admin."
+   },
+   {
+    "head": "Choose a booking tool",
+    "body": "Set your available days, time zone, meeting length and buffer between appointments."
+   },
+   {
+    "head": "Collect useful details upfront",
+    "body": "Ask what the customer wants to discuss, without requesting unnecessary personal information."
+   },
+   {
+    "head": "Connect your calendar",
+    "body": "Block unavailable times so people cannot book the same slot twice."
+   },
+   {
+    "head": "Enable confirmations and reminders",
+    "body": "Send the time, location or call link, and a clear rescheduling option."
+   },
+   {
+    "head": "Make one test booking",
+    "body": "Check the email, date, timezone and cancellation flow yourself."
+   },
+   {
+    "head": "Keep the personal touch",
+    "body": "Automation handles the logistics. You still show up prepared."
+   }
+  ]
+ },
+ {
+  "num": 13,
+  "title": "Create an invoice reminder workflow",
+  "pillar": "Automation",
+  "slides": [
+   {
+    "head": "Following up on invoices should not depend on memory.",
+    "body": "A simple tracker can tell you what is due."
+   },
+   {
+    "head": "Start with an invoice sheet",
+    "body": "Include invoice number, customer, amount, issue date, due date, status, and payment reference."
+   },
+   {
+    "head": "Set a reminder schedule",
+    "body": "For example: one reminder before the due date and one polite check-in after it."
+   },
+   {
+    "head": "Only message unpaid invoices",
+    "body": "Make payment status your condition. Do not chase someone whose payment has already cleared."
+   },
+   {
+    "head": "Use a helpful message",
+    "body": "\"Hello, a quick reminder that invoice 104 is due on Friday. Please let us know if you need a copy.\""
+   },
+   {
+    "head": "Review exceptions manually",
+    "body": "Disputes, partial payments and failed transactions should go to a person."
+   },
+   {
+    "head": "Make collections more organised",
+    "body": "The system supports your process; it does not replace judgement."
+   }
+  ]
+ },
+ {
+  "num": 14,
+  "title": "Build a basic CRM using free tools",
+  "pillar": "Automation",
+  "slides": [
+   {
+    "head": "A CRM is simply a way to keep track of customer relationships.",
+    "body": "You can begin with a spreadsheet."
+   },
+   {
+    "head": "Create one record per lead",
+    "body": "Name, business, contact permission, interest, source and last conversation."
+   },
+   {
+    "head": "Choose a short pipeline",
+    "body": "New, contacted, interested, proposal sent, won or lost."
+   },
+   {
+    "head": "Give every lead a next step",
+    "body": "Add a date and a specific action, such as \"send product catalogue.\""
+   },
+   {
+    "head": "Use AI for summaries, not guesses",
+    "body": "Ask it to summarise notes you provide. Never let it invent what a customer said."
+   },
+   {
+    "head": "Add automations gradually",
+    "body": "Start with form capture and reminders before attempting complex integrations."
+   },
+   {
+    "head": "A useful CRM gets updated",
+    "body": "Keep it small enough that you will actually use it."
+   }
+  ]
+ },
+ {
+  "num": 15,
+  "title": "Create a daily sales summary automatically",
+  "pillar": "Automation",
+  "slides": [
+   {
+    "head": "How much did the business actually sell today?",
+    "body": "You should not have to count scattered messages every evening."
+   },
+   {
+    "head": "Record each sale in one place",
+    "body": "Capture the date, product, quantity, total paid, payment status and any refund."
+   },
+   {
+    "head": "Create a simple daily summary",
+    "body": "Calculate orders, total sales, refunds, and net sales for each date."
+   },
+   {
+    "head": "Build an easy dashboard",
+    "body": "A spreadsheet pivot table or chart can show your best-selling products."
+   },
+   {
+    "head": "Schedule a summary",
+    "body": "Use an automation tool to email the daily totals from verified records."
+   },
+   {
+    "head": "Check for gaps",
+    "body": "Cash sales, duplicate entries and unpaid orders can distort your numbers."
+   },
+   {
+    "head": "Let the report guide action",
+    "body": "Use it to spot stock needs and customer demand—not just to admire a dashboard."
+   }
+  ]
+ },
+ {
+  "num": 16,
+  "title": "Get low-stock alerts before items finish",
+  "pillar": "Automation",
+  "slides": [
+   {
+    "head": "Finding out you are out of stock when someone orders is stressful.",
+    "body": "Set a simple warning before that happens."
+   },
+   {
+    "head": "List your products and quantities",
+    "body": "Include each product variant, opening stock, received units and sold units."
+   },
+   {
+    "head": "Calculate available stock",
+    "body": "Available stock = opening stock + new stock - units sold."
+   },
+   {
+    "head": "Set a reorder point",
+    "body": "Choose the quantity at which you should start replenishing each item."
+   },
+   {
+    "head": "Add a notification rule",
+    "body": "When available stock drops to or below the reorder point, alert the responsible person."
+   },
+   {
+    "head": "Check real inventory",
+    "body": "Review damaged, returned and reserved items so the sheet matches the shelf."
+   },
+   {
+    "head": "Start with your fastest sellers",
+    "body": "You can expand the system once the numbers are reliable."
+   }
+  ]
+ },
+ {
+  "num": 17,
+  "title": "Build an FAQ assistant without misleading customers",
+  "pillar": "Automation",
+  "slides": [
+   {
+    "head": "A chatbot should answer what it knows—not make things up.",
+    "body": "That is the most important rule."
+   },
+   {
+    "head": "Collect approved answers",
+    "body": "Write down verified prices, delivery areas, opening hours, return policy and product information."
+   },
+   {
+    "head": "Put the answers in one knowledge base",
+    "body": "Use a structured document or help centre that the assistant can reference."
+   },
+   {
+    "head": "Set boundaries",
+    "body": "Tell the assistant to say \"I'm not sure\" and refer customers to a human when information is missing."
+   },
+   {
+    "head": "Test difficult questions",
+    "body": "Try outdated prices, unavailable items, complaints and questions outside your services."
+   },
+   {
+    "head": "Add an escalation option",
+    "body": "Let customers reach a real person without starting their enquiry again."
+   },
+   {
+    "head": "Review conversations responsibly",
+    "body": "Improve the knowledge base while protecting customer information."
+   }
+  ]
+ },
+ {
+  "num": 18,
+  "title": "Write better AI prompts for campaigns",
+  "pillar": "Systems",
+  "slides": [
+   {
+    "head": "\"Give me a catchy caption\" is not enough context.",
+    "body": "A better prompt begins with a clearer brief."
+   },
+   {
+    "head": "Tell AI what you sell",
+    "body": "Mention the product, price category and what makes it useful."
+   },
+   {
+    "head": "Describe the customer",
+    "body": "Who is buying, what do they care about, and what questions do they ask?"
+   },
+   {
+    "head": "Explain the objective",
+    "body": "Do you want enquiries, product education, website visits or sales?"
+   },
+   {
+    "head": "Set the tone and format",
+    "body": "Example: \"Write three Instagram hooks in simple Nigerian English. No exaggerated claims.\""
+   },
+   {
+    "head": "Ask for options and revise",
+    "body": "Choose one direction, then improve the opening, proof and call to action."
+   },
+   {
+    "head": "Save this prompt structure",
+    "body": "Product + audience + goal + tone + format + constraints."
+   }
+  ]
+ },
+ {
+  "num": 19,
+  "title": "Find the first 5 tasks your business should automate",
+  "pillar": "Systems",
+  "slides": [
+   {
+    "head": "You do not need to automate everything.",
+    "body": "Begin with the work you repeat most often."
+   },
+   {
+    "head": "Write down your daily tasks",
+    "body": "Think about enquiries, orders, booking, receipts, reports and stock updates."
+   },
+   {
+    "head": "Look for repeating steps",
+    "body": "Which task follows the same process every time and uses information you already capture?"
+   },
+   {
+    "head": "Score each task",
+    "body": "Rate frequency, time spent, error risk and ease of setup from 1 to 5."
+   },
+   {
+    "head": "Choose one low-risk starting point",
+    "body": "Examples: appointment reminders or saving website enquiries to a spreadsheet."
+   },
+   {
+    "head": "Keep approvals where they matter",
+    "body": "Do not automate refunds, sensitive decisions or public claims without suitable checks."
+   },
+   {
+    "head": "Measure the difference",
+    "body": "After two weeks, compare time saved, errors and customer experience."
+   }
+  ]
+ },
+ {
+  "num": 20,
+  "title": "Connect your form, spreadsheet and email alert",
+  "pillar": "Systems",
+  "slides": [
+   {
+    "head": "Let's build one useful workflow from start to finish.",
+    "body": "A new enquiry comes in. Your sheet updates. You get notified."
+   },
+   {
+    "head": "Step 1: create a form",
+    "body": "Ask for the customer's name, email, service interest and short message."
+   },
+   {
+    "head": "Step 2: connect the spreadsheet",
+    "body": "Use the form integration or an automation platform to create a row for each response."
+   },
+   {
+    "head": "Step 3: set the trigger",
+    "body": "Choose \"new form response\" or \"new spreadsheet row,\" depending on the tool."
+   },
+   {
+    "head": "Step 4: send an internal email",
+    "body": "Include the service requested and a link to the record. Avoid exposing sensitive data."
+   },
+   {
+    "head": "Step 5: test and fix",
+    "body": "Submit a sample response. Check duplicates, missing fields and notification delivery."
+   },
+   {
+    "head": "You have a working mini-system",
+    "body": "Build one reliable flow before adding five more."
+   }
+  ]
+ }
+]

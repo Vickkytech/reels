@@ -1,61 +1,83 @@
-# Leverage AI Studio (@leverageaistudio) captions
+# Leverage AI Studio (@leverageaistudio) caption starters
 
-## 01. Your AI prompt is too vague
+The brief has no captions; these reuse each cover's hook.
 
-You type, "Write a caption for my business," and get something you would never post. The more useful context you give, the less guessing the AI has to do.
+## 01. How to turn one product photo into 10 campaign creatives [Campaign]
 
-## 02. Tell AI who the work is for
+One photo. Ten ways to sell the same product. You do not need a new photoshoot every time you want to promote something.
 
-A message for new customers should not sound like a message to your existing team. Before asking AI to write, tell it who will be reading.
+## 02. Plan 30 days of marketing content with AI [Campaign]
 
-## 03. Give AI an example of your voice
+Posting every day is not a marketing plan. Start with what you want the content to achieve.
 
-You want natural writing, but the response sounds like a corporate brochure. Your own writing is one of the best references you can give.
+## 03. Create a product video ad without a studio [Campaign]
 
-## 04. One prompt is not the whole process
+Your product ad can start on your desk. A simple photo can become the starting point for a short video campaign.
 
-You ask AI for a first draft and publish it immediately. Better results often come from a second conversation.
+## 04. Build a launch campaign for a new product [Campaign]
 
-## 05. Ask AI to question you first
+A launch should not be one "We are live" post. Give people a reason to notice the product before launch day.
 
-Sometimes you know you need a plan, but you have not figured out the details. Let the tool help you think before it helps you write.
+## 05. Create five ad angles for the same product [Campaign]
 
-## 06. Turn one idea into a week of content
+Same product. Different reasons people buy. One caption cannot speak to every customer need.
 
-You have one useful topic and feel you need six more completely new ideas. Repurpose the thinking, not the exact same paragraph.
+## 06. Create a small-budget campaign for a local business [Campaign]
 
-## 07. Make your prompts easier to reuse
+You do not need a huge budget to run a thoughtful campaign. You need a clear customer, a clear offer, and useful content.
 
-You keep typing the same long instructions every time you need a caption. A good prompt is one you can adapt without starting over.
+## 07. How to Keep AI-generated brand visuals consistent [Campaign]
 
-## 08. AI can help with meetings, not just captions
+Ever notice your AI product looks different in every image? That makes a brand feel less trustworthy.
 
-You leave a meeting with notes everywhere and no clear next step. A neat summary is helpful. Clear next actions are better.
+## 08. Turn customer questions into a campaign [Campaign]
 
-## 09. How to use AI for research without trusting everything
+Your next content ideas may already be in your DMs. People are telling you what they want to know.
 
-AI gives you a confident answer, complete with figures and sources. Use AI to organise your research, not to replace checking it.
+## 09. Plan an AI brand ambassador campaign [Campaign]
 
-## 10. Give AI a job, not just a topic
+An AI face alone is not a brand strategy. A consistent character needs a clear role in your campaign.
 
-"Help me with marketing" is a very wide request. Smaller, specific tasks are easier to use.
+## 10. How to automatically save customer enquiries into Google Sheets [Automation]
 
-## 11. Use AI to plan a campaign before making graphics
+Still copying enquiries into a notebook? A simple form can help you keep them in one place.
 
-You open a design tool and start creating posts without deciding what the campaign is meant to achieve. Start with the message. Then create the visuals.
+## 11. Build a simple customer follow-up system [Automation]
 
-## 12. Your image prompt needs more than "make it beautiful"
+Interested customers sometimes need a follow-up. The difficult part is remembering who to contact and when.
 
-You ask for a product image and get a scene that does not match your brand. Specific visual details make your ideas easier to communicate.
+## 12. Automate appointment confirmations and reminders [Automation]
 
-## 13. Do not paste confidential information into every AI tool
+Double bookings and forgotten calls are avoidable. Your booking page can handle the routine admin.
 
-It is tempting to upload an entire customer list just to get a quick analysis. You can use AI productively without sharing information you should protect.
+## 13. Create an invoice reminder workflow [Automation]
 
-## 14. Ask AI to review your work, not only create it
+Following up on invoices should not depend on memory. A simple tracker can tell you what is due.
 
-You have already written the proposal. You do not need the tool to start from scratch. AI can be a reviewer while you remain the author.
+## 14. Build a basic CRM using free tools [Automation]
 
-## 15. Build a simple AI workflow you will actually use
+A CRM is simply a way to keep track of customer relationships. You can begin with a spreadsheet.
 
-You have tried ten tools and still feel like you are doing everything manually. Start with one useful workflow before adding another subscription.
+## 15. Create a daily sales summary automatically [Automation]
+
+How much did the business actually sell today? You should not have to count scattered messages every evening.
+
+## 16. Get low-stock alerts before items finish [Automation]
+
+Finding out you are out of stock when someone orders is stressful. Set a simple warning before that happens.
+
+## 17. Build an FAQ assistant without misleading customers [Automation]
+
+A chatbot should answer what it knows—not make things up. That is the most important rule.
+
+## 18. Write better AI prompts for campaigns [Systems]
+
+"Give me a catchy caption" is not enough context. A better prompt begins with a clearer brief.
+
+## 19. Find the first 5 tasks your business should automate [Systems]
+
+You do not need to automate everything. Begin with the work you repeat most often.
+
+## 20. Connect your form, spreadsheet and email alert [Systems]
+
+Let's build one useful workflow from start to finish. A new enquiry comes in. Your sheet updates. You get notified.

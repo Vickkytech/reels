@@ -38,6 +38,7 @@ const issues = [];
 for (const [b, entry] of content.entries()) {
   const brand = brands[entry.name];
   if (onlyBrand && brand.slug !== onlyBrand) continue;
+  if (brand.ownBrief) continue; // rendered by its own script (see render-steps.mjs)
   const template = brand.template || "template.html";
   if (template !== loaded) {
     await page.goto(pathToFileURL(path.join(here, template)).href);

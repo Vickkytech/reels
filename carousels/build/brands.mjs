@@ -64,6 +64,7 @@ export const brands = {
   },
   "Leverage AI Studio": {
     slug: "leverage-ai-studio",
+    ownBrief: "leverage-steps.json",
     bold: { strong: "#0B1A36", accent: "#7FB3AA", light: "#EEEDEB", lightInk: "#0B1A36", lightAccent: "#3F6D68", teaser: ["Here’s what to", "know"] },
     logo: "leverage",
     logoHeight: 84,
