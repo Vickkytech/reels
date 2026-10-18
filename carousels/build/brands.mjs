@@ -2,8 +2,19 @@
 const defaultLabels = ["", "Sound familiar?", "Here's the thing", "Try this", "Remember"];
 
 export const brands = {
+  "Victoria Innocent": {
+    slug: "victoria-innocent",
+    template: "template-photo.html",
+    bold: { strong: "#6E1F33", accent: "#F5C451", light: "#F8F3EE", lightInk: "#2A1A1E", lightAccent: "#8E2A42", teasers: [["Here’s what I’m", "learning"], ["Let me be", "honest"], ["Real", "talk"]] },
+    logo: "victoria",
+    logoHeight: 62,
+    coverLogoHeight: 62,
+    headFont: "Inter Display",
+    labels: ["", "Real talk", "Here’s the thing", "Try this", "Remember"],
+  },
   PAVA: {
     slug: "pava",
+    bold: { strong: "#0B2A5B", accent: "#F7944A", light: "#F7F7F7", lightInk: "#0B2A5B", lightAccent: "#D96A24", teaser: ["Here’s what to", "fix"] },
     logo: "pava",
     logoHeight: 84,
     coverLogoHeight: 120,
@@ -25,6 +36,7 @@ export const brands = {
   },
   SmartFinanceVic: {
     slug: "smartfinancevic",
+    bold: { strong: "#0A49A0", accent: "#F2C14E", light: "#F6F7FA", lightInk: "#0A3F8C", lightAccent: "#A67406", teaser: ["Here’s what to", "check"] },
     logo: "sfv",
     logoHeight: 58,
     coverLogoHeight: 72,
@@ -46,6 +58,7 @@ export const brands = {
   },
   "Leverage AI Studio": {
     slug: "leverage-ai-studio",
+    bold: { strong: "#0B1A36", accent: "#7FB3AA", light: "#EEEDEB", lightInk: "#0B1A36", lightAccent: "#3F6D68", teaser: ["Here’s what to", "know"] },
     logo: "leverage",
     logoHeight: 84,
     coverLogoHeight: 96,
@@ -66,6 +79,7 @@ export const brands = {
   },
   "SheEarns Initiative": {
     slug: "sheearns-initiative",
+    bold: { strong: "#1A2C4C", accent: "#E59475", light: "#FBF7F0", lightInk: "#1A2C4C", lightAccent: "#B4583B", teaser: ["Read this", "first"] },
     logo: "sheearns",
     logoHeight: 92,
     coverLogoHeight: 130,
@@ -86,6 +100,7 @@ export const brands = {
   },
   "The Calming Experience": {
     slug: "the-calming-experience",
+    bold: { strong: "#4F4A3E", accent: "#C9D3AF", light: "#F5EFE3", lightInk: "#3E3E35", lightAccent: "#7D6650", teaser: ["A gentle", "reminder"] },
     logo: "calming",
     logoHeight: 78,
     coverLogoHeight: 104,
@@ -107,6 +122,7 @@ export const brands = {
   },
   "Tenye Home & Fragrance": {
     slug: "tenye-home-and-fragrance",
+    bold: { strong: "#8A4527", accent: "#F6D2B0", light: "#FAF2E8", lightInk: "#6E3520", lightAccent: "#A9583A", teaser: ["A little", "home tip"] },
     logo: "tenye",
     logoHeight: 92,
     coverLogoHeight: 124,

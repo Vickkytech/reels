@@ -1,5 +1,7 @@
 // Renders every carousel in content.json to 1080x1350 PNGs.
 // Usage: node render.mjs [brandSlug] [carouselNumber]
+// Each brand picks its template (brand.template, default template.html); only
+// Victoria Innocent uses the founder-photo template.
 import { createRequire } from "node:module";
 import { execSync } from "node:child_process";
 import fs from "node:fs";
@@ -13,6 +15,10 @@ const { chromium } = require(path.join(globalRoot, "playwright"));
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const outRoot = path.resolve(here, "..");
+const PHOTOS = 11;
+// Crop focus for the full-bleed cover, per photo: puts each face about a quarter of the way down.
+const FOCUS = ["50% 0%", "50% 0%", "50% 50%", "50% 15%", "50% 57%", "50% 53%", "50% 70%", "50% 70%", "50% 41%", "50% 53%", "50% 22%"];
+const pad2 = (x) => String(x).padStart(2, "0");
 const content = JSON.parse(fs.readFileSync(path.join(here, "content.json"), "utf8"));
 const [onlyBrand, onlyNum] = process.argv.slice(2);
 
@@ -26,13 +32,18 @@ const slugify = (s) => {
 
 const browser = await chromium.launch();
 const page = await browser.newPage({ viewport: { width: 1080, height: 1350 }, deviceScaleFactor: 1 });
-await page.goto(pathToFileURL(path.join(here, "template.html")).href);
-await page.evaluate(() => document.fonts.ready);
+let loaded = "";
 
 const issues = [];
-for (const entry of content) {
+for (const [b, entry] of content.entries()) {
   const brand = brands[entry.name];
   if (onlyBrand && brand.slug !== onlyBrand) continue;
+  const template = brand.template || "template.html";
+  if (template !== loaded) {
+    await page.goto(pathToFileURL(path.join(here, template)).href);
+    await page.evaluate(() => document.fonts.ready);
+    loaded = template;
+  }
   const captions = [];
   for (const c of entry.carousels) {
     const num = String(c.num).padStart(2, "0");
@@ -46,6 +57,14 @@ for (const entry of content) {
         slides: c.slides.map(smarten),
         index: i,
         handle: entry.handle,
+        // Covers cycle: sticker on brand colour, full-bleed photo, sticker on light.
+        format: ["sticker", "full", "sticker"][(c.num - 1) % 3],
+        scheme: (c.num - 1) % 3 === 2 ? "b" : "a",
+        teaser: brand.bold?.teasers?.[(c.num - 1) % brand.bold.teasers.length],
+        photo: `photo-${pad2(((c.num - 1) % PHOTOS) + 1)}.jpg`,
+        focus: FOCUS[(c.num - 1) % PHOTOS],
+        sticker: `sticker-${pad2(((c.num - 1) % PHOTOS) + 1)}.png`,
+        closer: `sticker-${pad2(((c.num + 4) % PHOTOS) + 1)}.png`,
       });
       if (res.overflow) issues.push(`${brand.slug} ${num} slide ${i + 1} overflows`);
       await page.screenshot({ path: path.join(dir, `slide-${String(i + 1).padStart(2, "0")}.png`) });
