@@ -25,10 +25,9 @@ Each brand folder holds `NN-title/slide-01.png … slide-05.png` plus `captions.
 
 ## Victoria Innocent
 
-Uses `build/template-photo.html` with Victoria's own photos (`assets/people/`, cut out with rembg
-`birefnet-portrait`, then `build/prepare_photos.py`). Covers rotate between a cut-out "sticker" on
-burgundy, a full-bleed photo, and a sticker on cream; inner slides alternate burgundy and cream.
-These photos are used for Victoria Innocent only.
+Uses `build/template-photo.html` in plain-background mode (`themes` in `build/brands.mjs`): no photos.
+Burgundy, cream and gold take turns slide by slide, so each carousel's cover colour differs from the
+one before it. The closing sentence of a slide is highlighted in the accent colour.
 
 ## Re-rendering
 

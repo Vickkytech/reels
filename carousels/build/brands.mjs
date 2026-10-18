@@ -6,6 +6,12 @@ export const brands = {
     slug: "victoria-innocent",
     template: "template-photo.html",
     bold: { strong: "#6E1F33", accent: "#F5C451", light: "#F8F3EE", lightInk: "#2A1A1E", lightAccent: "#8E2A42", teasers: [["Here’s what I’m", "learning"], ["Let me be", "honest"], ["Real", "talk"]] },
+    // Plain backgrounds, no photos: burgundy, cream and gold take turns (covers included).
+    themes: [
+      { bg: "#6E1F33", fg: "#FFFFFF", accent: "#F5C451", tagInk: "#6E1F33", whiteLogo: true },
+      { bg: "#F8F3EE", fg: "#2A1A1E", accent: "#8E2A42", tagInk: "#FFFFFF" },
+      { bg: "#F5C451", fg: "#3A1220", accent: "#6E1F33", tagInk: "#FFFFFF" },
+    ],
     logo: "victoria",
     logoHeight: 62,
     coverLogoHeight: 62,

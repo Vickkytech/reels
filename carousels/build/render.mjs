@@ -57,14 +57,16 @@ for (const [b, entry] of content.entries()) {
         slides: c.slides.map(smarten),
         index: i,
         handle: entry.handle,
-        // Covers cycle: sticker on brand colour, full-bleed photo, sticker on light.
-        format: ["sticker", "full", "sticker"][(c.num - 1) % 3],
+        // Plain mode: no photos; every slide takes the next colour theme so covers rotate too.
+        theme: brand.themes?.[(c.num - 1 + i) % brand.themes.length],
+        // Photo mode covers cycle: sticker on brand colour, full-bleed photo, sticker on light.
+        format: brand.themes ? "plain" : ["sticker", "full", "sticker"][(c.num - 1) % 3],
         scheme: (c.num - 1) % 3 === 2 ? "b" : "a",
         teaser: brand.bold?.teasers?.[(c.num - 1) % brand.bold.teasers.length],
         photo: `photo-${pad2(((c.num - 1) % PHOTOS) + 1)}.jpg`,
         focus: FOCUS[(c.num - 1) % PHOTOS],
         sticker: `sticker-${pad2(((c.num - 1) % PHOTOS) + 1)}.png`,
-        closer: `sticker-${pad2(((c.num + 4) % PHOTOS) + 1)}.png`,
+        closer: brand.themes ? null : `sticker-${pad2(((c.num + 4) % PHOTOS) + 1)}.png`,
       });
       if (res.overflow) issues.push(`${brand.slug} ${num} slide ${i + 1} overflows`);
       await page.screenshot({ path: path.join(dir, `slide-${String(i + 1).padStart(2, "0")}.png`) });
