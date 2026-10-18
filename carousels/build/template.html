@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../assets/fonts/local.css">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1080px; height: 1350px; overflow: hidden; }
+  #slide {
+    position: relative; width: 1080px; height: 1350px; overflow: hidden;
+    background: var(--bg); color: var(--ink);
+    font-family: var(--body-font), sans-serif;
+    display: flex; flex-direction: column; padding: 84px 90px 72px;
+  }
+  #slide.dark { background: var(--dark); color: var(--on-dark); }
+  .deco { position: absolute; border-radius: 50%; pointer-events: none; }
+  header { display: flex; align-items: center; justify-content: space-between; position: relative; z-index: 2; }
+  header img { display: block; height: var(--logo-h); width: auto; max-width: 560px; object-fit: contain; }
+  .count { font-family: var(--body-font); font-weight: 700; font-size: 28px; letter-spacing: 2px; opacity: .7; }
+  main { flex: 1; display: flex; flex-direction: column; justify-content: center; position: relative; z-index: 2; min-height: 0; }
+  footer { display: flex; align-items: center; justify-content: space-between; position: relative; z-index: 2;
+    font-size: 28px; font-weight: 600; letter-spacing: .5px; padding-top: 28px; border-top: 2px solid var(--rule); }
+  footer .handle { font-family: var(--body-font); font-weight: 700; }
+  footer .hint { display: flex; align-items: center; gap: 14px; color: var(--accent-text); font-weight: 700; }
+  .dark footer .hint { color: var(--accent-dark); }
+  footer svg { width: 40px; height: 40px; }
+
+  .label { display: inline-flex; align-items: center; gap: 22px; margin-bottom: 52px; }
+  .icon { width: 104px; height: 104px; border-radius: 50%; display: grid; place-items: center; background: var(--soft); flex: none; }
+  .icon svg { width: 56px; height: 56px; }
+  .label span { font-family: var(--body-font); font-weight: 800; font-size: 32px; letter-spacing: 4px; text-transform: uppercase; color: var(--accent-text); }
+  .label.serif span { font-family: Montserrat, sans-serif; font-weight: 600; font-size: 28px; letter-spacing: 6px; }
+  .dark .label span { color: var(--accent-dark); }
+  .dark .icon { background: rgba(255,255,255,.1); }
+
+  
+  .title { font-family: var(--head-font), serif; font-weight: var(--head-weight); line-height: 1.08; letter-spacing: -1px; }
+  .serif-brand .title { letter-spacing: 0; line-height: 1.04; }
+  .bar { width: 150px; height: 12px; border-radius: 6px; background: var(--accent); margin-bottom: 56px; }
+  .body { font-family: var(--body-font), sans-serif; font-weight: var(--body-weight); line-height: 1.28; letter-spacing: -.3px; }
+  .serif-brand .count, .serif-brand footer { font-family: Montserrat, sans-serif; }
+  .serif-brand footer .handle { font-family: Montserrat, sans-serif; }
+  .serif-brand .body { letter-spacing: 0; line-height: 1.22; }
+  .card { background: var(--dark); color: var(--on-dark); border-radius: 36px; padding: 72px 68px; position: relative; }
+  .card .body { color: var(--on-dark); }
+  .card-tag { position: absolute; top: -34px; left: 60px; background: var(--accent); color: #fff; border-radius: 40px;
+    padding: 14px 32px; font-weight: 800; font-size: 28px; letter-spacing: 3px; text-transform: uppercase; display: flex; align-items: center; gap: 14px; font-family: Montserrat, sans-serif; }
+  .card-tag svg { width: 34px; height: 34px; }
+  .save { margin-top: 64px; display: inline-flex; align-items: center; gap: 18px; font-size: 32px; font-weight: 700;
+    color: var(--accent-dark); font-family: Montserrat, sans-serif; letter-spacing: 1px; }
+  .save svg { width: 44px; height: 44px; }
+  .quote { font-family: Georgia, serif; font-size: 300px; line-height: .6; height: 120px; color: var(--accent); opacity: .9; }
+</style>
+</head>
+<body>
+<div id="slide"></div>
+<script>
+const ICONS = {
+  chat: '<path d="M8 10h32a4 4 0 0 1 4 4v18a4 4 0 0 1-4 4H22l-10 8v-8H8a4 4 0 0 1-4-4V14a4 4 0 0 1 4-4z"/><path d="M14 20h20M14 27h12"/>',
+  bulb: '<path d="M24 5a14 14 0 0 0-8 25.5V36h16v-5.5A14 14 0 0 0 24 5z"/><path d="M18 42h12M24 30v-8M20 20l4 3 4-3"/>',
+  check: '<circle cx="24" cy="24" r="19"/><path d="M15 24.5l6 6 12-13"/>',
+  spark: '<path d="M24 4l4.5 13.5L42 22l-13.5 4.5L24 40l-4.5-13.5L6 22l13.5-4.5z"/>',
+  arrow: '<path d="M6 24h34M28 12l12 12-12 12"/>',
+  bookmark: '<path d="M12 6h24v36l-12-9-12 9z"/>',
+};
+const icon = (n, color, w = 4) =>
+  `<svg viewBox="0 0 48 48" fill="none" stroke="${color}" stroke-width="${w}" stroke-linecap="round" stroke-linejoin="round">${ICONS[n]}</svg>`;
+
+// Shrink until the text block fits its height budget and the slide body does not overflow.
+function fit(el, max, min) {
+  const limit = parseFloat(el.dataset.max);
+  const main = document.querySelector('main');
+  const tooBig = () => el.offsetHeight > limit || main.scrollHeight > main.clientHeight + 1;
+  let s = max;
+  el.style.fontSize = s + 'px';
+  while (s > min && tooBig()) { s -= 2; el.style.fontSize = s + 'px'; }
+  return { s, over: tooBig() };
+}
+
+window.render = async ({ brand: b, slides, index, handle }) => {
+  const el = document.getElementById('slide');
+  const r = el.style;
+  const vars = { bg: b.bg, ink: b.ink, accent: b.accent, dark: b.dark, 'on-dark': b.onDark, 'accent-dark': b.accentOnDark,
+    soft: b.soft, 'accent-text': b.accentText || b.accent, 'head-font': `'${b.headFont}'`, 'head-weight': b.headWeight, 'body-font': `'${b.bodyFont}'`, 'body-weight': b.bodyWeight };
+  for (const [k, v] of Object.entries(vars)) r.setProperty('--' + k, v);
+  const serif = /Cormorant|Playfair/.test(b.headFont);
+  const n = index + 1, total = slides.length;
+  const dark = n === total;
+  el.className = (dark ? 'dark ' : '') + (serif ? 'serif-brand' : '');
+  r.setProperty('--rule', dark ? 'rgba(255,255,255,.18)' : 'rgba(0,0,0,.09)');
+  const logo = `../assets/logos/${b.logo}${dark ? '-white' : ''}.png`;
+  r.setProperty('--logo-h', (n === 1 ? b.coverLogoHeight : b.logoHeight) + 'px');
+  const text = slides[index];
+  const count = `<div class="count">${String(n).padStart(2, '0')} / ${String(total).padStart(2, '0')}</div>`;
+  const accentHere = dark ? b.accentOnDark : (b.accentText || b.accent);
+  const deco = n === 1
+    ? `<div class="deco" style="width:760px;height:760px;right:-300px;top:-260px;background:${b.soft}"></div>
+       <div class="deco" style="width:260px;height:260px;left:-120px;bottom:120px;border:22px solid ${b.soft}"></div>`
+    : dark
+      ? `<div class="deco" style="width:640px;height:640px;right:-260px;bottom:-240px;border:2px solid rgba(255,255,255,.12)"></div>
+         <div class="deco" style="width:420px;height:420px;right:-150px;bottom:-130px;border:2px solid rgba(255,255,255,.12)"></div>`
+      : `<div class="deco" style="width:420px;height:420px;right:-210px;top:-210px;background:${b.soft};opacity:.7"></div>`;
+
+  let main = '';
+  const sc = b.bodyScale || 1;
+  if (n === 1) {
+    main = `<div class="bar"></div><div class="title fit" id="t" data-max="760">${text}</div>`;
+  } else if (n === total) {
+    main = `<div class="label ${serif ? 'serif' : ''}"><div class="icon">${icon('spark', accentHere)}</div><span>${b.labels[4]}</span></div>
+            <div class="title fit" id="t" data-max="620">${text}</div>
+            <div class="save">${icon('bookmark', b.accentOnDark)}Save this for later</div>`;
+  } else if (n === 4) {
+    main = `<div class="card"><div class="card-tag">${icon('check', '#fff', 5)}${b.labels[3]}</div>
+            <div class="body fit" id="t" data-max="760">${text}</div></div>`;
+  } else {
+    const ic = n === 2 ? 'chat' : 'bulb';
+    main = `<div class="label ${serif ? 'serif' : ''}"><div class="icon">${icon(ic, b.accent)}</div><span>${b.labels[n - 1]}</span></div>
+            <div class="body fit" id="t" data-max="780">${text}</div>`;
+  }
+  const hint = n < total
+    ? `<div class="hint">${n === 1 ? 'Swipe' : 'Next'} ${icon('arrow', accentHere, 4.5)}</div>`
+    : '';
+
+  el.innerHTML = `${deco}
+    <header><img src="${logo}" alt="">${n === 1 ? '' : count}</header>
+    <main>${main}</main>
+    <footer><span class="handle">${handle}</span>${hint}</footer>`;
+
+  await Promise.all([...el.querySelectorAll('img')].map(i => i.complete ? 0 : new Promise(res => { i.onload = i.onerror = res; })));
+  await document.fonts.ready;
+  const t = document.getElementById('t');
+  let res;
+  if (n === 1) res = fit(t, serif ? 124 : 104, 64);
+  else if (n === total) res = fit(t, serif ? 92 : 76, 50);
+  else if (n === 4) res = fit(t, Math.round((serif ? 62 : 58) * sc / (serif ? 1.12 : 1)), 36);
+  else res = fit(t, Math.round((serif ? 72 : 64) * sc / (serif ? 1.12 : 1)), 40);
+  return { size: res.s, overflow: res.over };
+};
+</script>
+</body>
+</html>

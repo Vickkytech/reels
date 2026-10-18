@@ -1,0 +1,1118 @@
+[
+ {
+  "name": "PAVA",
+  "handle": "@buildwithpava",
+  "carousels": [
+   {
+    "num": 1,
+    "title": "You hired staff. Why are you still doing everything?",
+    "slides": [
+     "You hired staff. Why are you still doing everything?",
+     "You have people on your team, but every small decision still lands on your desk.",
+     "Sometimes they are not lazy. They just do not know what they can decide without you.",
+     "Pick one task this week. Explain the expected result, who owns it and when you want an update.",
+     "Delegating is not disappearing. It is giving people enough clarity to do the job."
+    ],
+    "caption": "You have people on your team, but every small decision still lands on your desk. Delegating is not disappearing. It is giving people enough clarity to do the job."
+   },
+   {
+    "num": 2,
+    "title": "Your business should not stop when you step out",
+    "slides": [
+     "Your business should not stop when you step out",
+     "Imagine taking one afternoon off and returning to twenty missed calls.",
+     "That is usually a sign that too much information lives in one person's head.",
+     "Write down how orders are received, handled and followed up. Start with the busiest process.",
+     "A good process gives everyone a place to start, even when you are away."
+    ],
+    "caption": "Imagine taking one afternoon off and returning to twenty missed calls. A good process gives everyone a place to start, even when you are away."
+   },
+   {
+    "num": 3,
+    "title": "Busy does not always mean productive",
+    "slides": [
+     "Busy does not always mean productive",
+     "Your team has been working all day. Yet the important things are still waiting.",
+     "A full to-do list can hide the fact that nobody agreed on what mattered most.",
+     "At the start of the day, agree on the three outcomes that cannot wait.",
+     "Measure what got finished, not just how tired everyone feels."
+    ],
+    "caption": "Your team has been working all day. Yet the important things are still waiting. Measure what got finished, not just how tired everyone feels."
+   },
+   {
+    "num": 4,
+    "title": "Your customers should not have to ask twice",
+    "slides": [
+     "Your customers should not have to ask twice",
+     "A customer sends a message on Monday, follows up on Tuesday and gets an answer on Thursday.",
+     "You might have a great product, but slow responses make people doubt the business.",
+     "Decide who responds to enquiries, how quickly and where unanswered messages are tracked.",
+     "Customer service is not only about being polite. It is also about being reliable."
+    ],
+    "caption": "A customer sends a message on Monday, follows up on Tuesday and gets an answer on Thursday. Customer service is not only about being polite. It is also about being reliable."
+   },
+   {
+    "num": 5,
+    "title": "That spreadsheet nobody updates",
+    "slides": [
+     "That spreadsheet nobody updates",
+     "You created a tracker to make work easier. Two weeks later, everyone has stopped using it.",
+     "The problem may be that it takes too much effort or nobody knows why it matters.",
+     "Remove fields you never use. Give one person responsibility for checking it weekly.",
+     "A simple tool people use beats a complicated one they avoid."
+    ],
+    "caption": "You created a tracker to make work easier. Two weeks later, everyone has stopped using it. A simple tool people use beats a complicated one they avoid."
+   },
+   {
+    "num": 6,
+    "title": "Before you hire another person, check this",
+    "slides": [
+     "Before you hire another person, check this",
+     "You are overwhelmed, so the first thought is to employ someone else.",
+     "But if the work is disorganised, another person may only join the confusion.",
+     "List the repeated tasks, remove unnecessary steps and decide what really needs a new role.",
+     "Sometimes you need another employee. Sometimes you need a better way of working."
+    ],
+    "caption": "You are overwhelmed, so the first thought is to employ someone else. Sometimes you need another employee. Sometimes you need a better way of working."
+   },
+   {
+    "num": 7,
+    "title": "Why do the same mistakes keep happening?",
+    "slides": [
+     "Why do the same mistakes keep happening?",
+     "An order gets mixed up. Everyone apologises. A month later, it happens again.",
+     "Fixing the immediate issue is not the same as fixing what caused it.",
+     "Ask where the handoff failed and add one check that would catch it next time.",
+     "The point is not to find someone to blame. It is to stop repeating the problem."
+    ],
+    "caption": "An order gets mixed up. Everyone apologises. A month later, it happens again. The point is not to find someone to blame. It is to stop repeating the problem."
+   },
+   {
+    "num": 8,
+    "title": "Your business needs a weekly check-in",
+    "slides": [
+     "Your business needs a weekly check-in",
+     "Everybody is busy, so meetings keep getting postponed.",
+     "Then problems build up quietly until something goes wrong.",
+     "Spend twenty minutes each week on pending work, customer issues, money and next steps.",
+     "A short useful meeting can save a long stressful conversation later."
+    ],
+    "caption": "Everybody is busy, so meetings keep getting postponed. A short useful meeting can save a long stressful conversation later."
+   },
+   {
+    "num": 9,
+    "title": "A discount is not always a good idea",
+    "slides": [
+     "A discount is not always a good idea",
+     "Sales are slow, so you cut prices to attract customers.",
+     "But more orders will not help much if you are losing money on each one.",
+     "Check product cost, delivery, packaging and the margin left before announcing a discount.",
+     "More sales should make the business healthier, not just busier."
+    ],
+    "caption": "Sales are slow, so you cut prices to attract customers. More sales should make the business healthier, not just busier."
+   },
+   {
+    "num": 10,
+    "title": "Do you know where your stock goes?",
+    "slides": [
+     "Do you know where your stock goes?",
+     "You bought twenty items, sold twelve and can only find six.",
+     "Small stock differences can quietly become a serious problem.",
+     "Record what comes in, what goes out and who approved adjustments. Count regularly.",
+     "You cannot manage what you cannot account for."
+    ],
+    "caption": "You bought twenty items, sold twelve and can only find six. You cannot manage what you cannot account for."
+   },
+   {
+    "num": 11,
+    "title": "Your staff cannot read your mind",
+    "slides": [
+     "Your staff cannot read your mind",
+     "You say, \"Just handle it the usual way,\" but the new employee has no idea what that means.",
+     "What feels obvious to you may never have been explained to someone else.",
+     "Show an example of good work and write down the steps in plain language.",
+     "Clear instructions save everyone time and frustration."
+    ],
+    "caption": "You say, \"Just handle it the usual way,\" but the new employee has no idea what that means. Clear instructions save everyone time and frustration."
+   },
+   {
+    "num": 12,
+    "title": "Automation will not fix a confusing process",
+    "slides": [
+     "Automation will not fix a confusing process",
+     "You want an app that automatically handles customer orders.",
+     "But if nobody agrees on the current order process, the app will only move confusion faster.",
+     "First decide the steps, responsibilities and exceptions. Then choose what to automate.",
+     "Get the process right before asking technology to speed it up."
+    ],
+    "caption": "You want an app that automatically handles customer orders. Get the process right before asking technology to speed it up."
+   },
+   {
+    "num": 13,
+    "title": "Who checks that payments actually came in?",
+    "slides": [
+     "Who checks that payments actually came in?",
+     "Someone sends a payment screenshot, and the order moves immediately.",
+     "Screenshots are useful, but they are not the same as confirming funds received.",
+     "Set a clear payment-confirmation step before goods or services are released.",
+     "Good controls are not about mistrusting customers. They protect the business."
+    ],
+    "caption": "Someone sends a payment screenshot, and the order moves immediately. Good controls are not about mistrusting customers. They protect the business."
+   },
+   {
+    "num": 14,
+    "title": "Your numbers are trying to tell you something",
+    "slides": [
+     "Your numbers are trying to tell you something",
+     "Revenue looks good, but the business account is always running low.",
+     "Sales, profit and cash available are three different things.",
+     "Look at unpaid invoices, upcoming bills and actual cash each week.",
+     "Do not wait until payday to discover there is a cash problem."
+    ],
+    "caption": "Revenue looks good, but the business account is always running low. Do not wait until payday to discover there is a cash problem."
+   },
+   {
+    "num": 15,
+    "title": "Inside the Operations Room: a fresh-produce lesson",
+    "slides": [
+     "Inside the Operations Room: a fresh-produce lesson",
+     "Think about a fresh-produce business like Yolafresh. A delay is not just a late delivery.",
+     "Produce can lose freshness, customers can cancel and costs can rise quickly.",
+     "Map what happens from sourcing to storage to delivery, and decide where delays must be flagged.",
+     "The lesson is simple: operations are part of the customer experience, not just back-office work."
+    ],
+    "caption": "Think about a fresh-produce business like Yolafresh. A delay is not just a late delivery. The lesson is simple: operations are part of the customer experience, not just back-office work."
+   }
+  ]
+ },
+ {
+  "name": "SmartFinanceVic",
+  "handle": "@smartfinancevic",
+  "carousels": [
+   {
+    "num": 1,
+    "title": "Your salary came in. Where did it go?",
+    "slides": [
+     "Your salary came in. Where did it go?",
+     "You were paid on Friday. By Wednesday, you are already checking your balance.",
+     "It may not be one big expense. It could be many small ones you barely noticed.",
+     "Look at the last seven days of transactions. Group them into needs, commitments and extras.",
+     "Before you decide you need more money, find out what happened to the last one."
+    ],
+    "caption": "You were paid on Friday. By Wednesday, you are already checking your balance. Before you decide you need more money, find out what happened to the last one."
+   },
+   {
+    "num": 2,
+    "title": "The Money Chronicles: she saved nothing for six months",
+    "slides": [
+     "The Money Chronicles: she saved nothing for six months",
+     "Every month she promised herself she would save whatever was left.",
+     "The problem was that there was never anything left.",
+     "Try setting aside a realistic amount when money arrives, then plan around the balance.",
+     "A small amount saved consistently is still a decision worth taking."
+    ],
+    "caption": "Every month she promised herself she would save whatever was left. A small amount saved consistently is still a decision worth taking."
+   },
+   {
+    "num": 3,
+    "title": "You can earn more and still feel broke",
+    "slides": [
+     "You can earn more and still feel broke",
+     "A salary increase sounds like relief. Then the subscriptions, outings and expenses grow too.",
+     "Sometimes our spending adjusts faster than our plans.",
+     "When income rises, decide in advance how much goes to saving, investing and lifestyle.",
+     "Enjoy your money. Just do not let every increase disappear without a trace."
+    ],
+    "caption": "A salary increase sounds like relief. Then the subscriptions, outings and expenses grow too. Enjoy your money. Just do not let every increase disappear without a trace."
+   },
+   {
+    "num": 4,
+    "title": "Before you invest, ask this question",
+    "slides": [
+     "Before you invest, ask this question",
+     "Someone says an investment pays a very attractive return every month.",
+     "It is tempting to focus on the profit and forget to ask how the money is made.",
+     "Ask what the investment owns, the risks, fees, liquidity and who regulates the provider.",
+     "If you cannot explain what you are investing in, slow down."
+    ],
+    "caption": "Someone says an investment pays a very attractive return every month. If you cannot explain what you are investing in, slow down."
+   },
+   {
+    "num": 5,
+    "title": "Your emergency fund is not boring",
+    "slides": [
+     "Your emergency fund is not boring",
+     "Nobody posts exciting pictures of money sitting quietly in an account.",
+     "But when your phone breaks or work is interrupted, that money suddenly matters.",
+     "Start with a manageable buffer and build towards several months of essential expenses.",
+     "Not every naira needs to chase a return. Some money is there to give you breathing room."
+    ],
+    "caption": "Nobody posts exciting pictures of money sitting quietly in an account. Not every naira needs to chase a return. Some money is there to give you breathing room."
+   },
+   {
+    "num": 6,
+    "title": "The Money Chronicles: lending money you needed",
+    "slides": [
+     "The Money Chronicles: lending money you needed",
+     "He wanted to help a friend, so he lent out the money meant for his rent.",
+     "Now he is uncomfortable asking for it back and worried about his own bills.",
+     "Before lending, ask whether you can manage if repayment is delayed.",
+     "Generosity is good. Putting yourself in trouble to prove it is another matter."
+    ],
+    "caption": "He wanted to help a friend, so he lent out the money meant for his rent. Generosity is good. Putting yourself in trouble to prove it is another matter."
+   },
+   {
+    "num": 7,
+    "title": "Saving and investing are not the same thing",
+    "slides": [
+     "Saving and investing are not the same thing",
+     "You have money for school fees due in two months and money for a goal five years away.",
+     "Those two amounts should not automatically go into the same place.",
+     "Match the money to the timeline and the level of risk you can afford.",
+     "The right place for your money depends on when you need it."
+    ],
+    "caption": "You have money for school fees due in two months and money for a goal five years away. The right place for your money depends on when you need it."
+   },
+   {
+    "num": 8,
+    "title": "You do not need to start investing with millions",
+    "slides": [
+     "You do not need to start investing with millions",
+     "Some people keep postponing investing because they think their money is too small.",
+     "The more important starting point is understanding the product and its risks.",
+     "Learn the basics, check fees and minimums, and begin with an amount you can afford to set aside.",
+     "Start with knowledge, not pressure to look wealthy."
+    ],
+    "caption": "Some people keep postponing investing because they think their money is too small. Start with knowledge, not pressure to look wealthy."
+   },
+   {
+    "num": 9,
+    "title": "The Money Chronicles: the December spending hangover",
+    "slides": [
+     "The Money Chronicles: the December spending hangover",
+     "December was fun. January arrived with school fees, rent and a very quiet account.",
+     "The problem was not enjoying December. It was spending without remembering January.",
+     "Create a separate festive budget and keep next month's fixed bills out of it.",
+     "You can enjoy the season without borrowing stress from the new year."
+    ],
+    "caption": "December was fun. January arrived with school fees, rent and a very quiet account. You can enjoy the season without borrowing stress from the new year."
+   },
+   {
+    "num": 10,
+    "title": "Why your budget keeps failing",
+    "slides": [
+     "Why your budget keeps failing",
+     "You write a perfect budget on the first day of the month. By the tenth, you have abandoned it.",
+     "Maybe it does not reflect how you actually live.",
+     "Use your real spending history and leave room for irregular expenses.",
+     "A useful budget is one you can live with, not one that looks impressive on paper."
+    ],
+    "caption": "You write a perfect budget on the first day of the month. By the tenth, you have abandoned it. A useful budget is one you can live with, not one that looks impressive on paper."
+   },
+   {
+    "num": 11,
+    "title": "The Money Chronicles: everyone was buying it",
+    "slides": [
+     "The Money Chronicles: everyone was buying it",
+     "She invested because people in her group chat said they were making money.",
+     "By the time she wanted to withdraw, she realised she did not understand the rules.",
+     "Do your own checks. Read the terms, understand how withdrawals work and consider the risk of loss.",
+     "Other people's excitement is not an investment strategy."
+    ],
+    "caption": "She invested because people in her group chat said they were making money. Other people's excitement is not an investment strategy."
+   },
+   {
+    "num": 12,
+    "title": "What is your money supposed to do this year?",
+    "slides": [
+     "What is your money supposed to do this year?",
+     "You say you want to be better with money, but better can mean almost anything.",
+     "A clear goal makes it easier to choose what to do next.",
+     "Pick one target: clear a debt, build a buffer or invest towards a specific future need.",
+     "Give your money a job you can actually describe."
+    ],
+    "caption": "You say you want to be better with money, but better can mean almost anything. Give your money a job you can actually describe."
+   },
+   {
+    "num": 13,
+    "title": "Do not ignore the cost of borrowing",
+    "slides": [
+     "Do not ignore the cost of borrowing",
+     "A loan repayment looks manageable until you add up every fee and the total amount due.",
+     "The monthly payment is only one part of the story.",
+     "Compare total repayment, interest, fees, penalties and what happens if income changes.",
+     "A loan should solve a problem, not quietly create a bigger one."
+    ],
+    "caption": "A loan repayment looks manageable until you add up every fee and the total amount due. A loan should solve a problem, not quietly create a bigger one."
+   },
+   {
+    "num": 14,
+    "title": "What happens if your income stops for a while?",
+    "slides": [
+     "What happens if your income stops for a while?",
+     "It is an uncomfortable question, especially when everything seems fine.",
+     "But financial plans should work on difficult days too.",
+     "Write down essential bills, available savings and expenses you could pause if needed.",
+     "Preparing for uncertainty is not being negative. It is being realistic."
+    ],
+    "caption": "It is an uncomfortable question, especially when everything seems fine. Preparing for uncertainty is not being negative. It is being realistic."
+   },
+   {
+    "num": 15,
+    "title": "The Money Chronicles: a good year, no assets",
+    "slides": [
+     "The Money Chronicles: a good year, no assets",
+     "He earned well, travelled, bought nice things and enjoyed himself.",
+     "At year-end, he realised he had nothing set aside for his longer-term plans.",
+     "Choose a portion of income for assets and long-term goals before deciding what is left for extras.",
+     "Enjoying today and planning for tomorrow can happen together."
+    ],
+    "caption": "He earned well, travelled, bought nice things and enjoyed himself. Enjoying today and planning for tomorrow can happen together."
+   }
+  ]
+ },
+ {
+  "name": "Leverage AI Studio",
+  "handle": "@leverageaistudio",
+  "carousels": [
+   {
+    "num": 1,
+    "title": "Your AI prompt is too vague",
+    "slides": [
+     "Your AI prompt is too vague",
+     "You type, \"Write a caption for my business,\" and get something you would never post.",
+     "The tool does not know your audience, product or the way you speak.",
+     "Try: \"Write a friendly Instagram caption for a Lagos home-fragrance brand. Audience: young professionals. Product: reed diffuser. Keep it under 100 words. No hype.\"",
+     "The more useful context you give, the less guessing the AI has to do."
+    ],
+    "caption": "You type, \"Write a caption for my business,\" and get something you would never post. The more useful context you give, the less guessing the AI has to do."
+   },
+   {
+    "num": 2,
+    "title": "Tell AI who the work is for",
+    "slides": [
+     "Tell AI who the work is for",
+     "A message for new customers should not sound like a message to your existing team.",
+     "If you leave out the audience, the result often feels generic.",
+     "Prompt: \"Explain this savings concept to a first-time investor in Nigeria using everyday language and one simple example.\"",
+     "Before asking AI to write, tell it who will be reading."
+    ],
+    "caption": "A message for new customers should not sound like a message to your existing team. Before asking AI to write, tell it who will be reading."
+   },
+   {
+    "num": 3,
+    "title": "Give AI an example of your voice",
+    "slides": [
+     "Give AI an example of your voice",
+     "You want natural writing, but the response sounds like a corporate brochure.",
+     "AI can follow a sample better than it can guess what \"sound human\" means.",
+     "Paste a short paragraph you actually wrote. Ask it to match the tone, sentence length and level of formality without copying the words.",
+     "Your own writing is one of the best references you can give."
+    ],
+    "caption": "You want natural writing, but the response sounds like a corporate brochure. Your own writing is one of the best references you can give."
+   },
+   {
+    "num": 4,
+    "title": "One prompt is not the whole process",
+    "slides": [
+     "One prompt is not the whole process",
+     "You ask AI for a first draft and publish it immediately.",
+     "That first answer may be a starting point, not the finished work.",
+     "Ask it to check for vague claims, rewrite awkward lines and suggest what a reader might still ask. Then review it yourself.",
+     "Better results often come from a second conversation."
+    ],
+    "caption": "You ask AI for a first draft and publish it immediately. Better results often come from a second conversation."
+   },
+   {
+    "num": 5,
+    "title": "Ask AI to question you first",
+    "slides": [
+     "Ask AI to question you first",
+     "Sometimes you know you need a plan, but you have not figured out the details.",
+     "If you ask for the whole plan immediately, AI fills the gaps with assumptions.",
+     "Prompt: \"Before creating my launch plan, ask me five questions about my audience, budget, offer and timeline.\"",
+     "Let the tool help you think before it helps you write."
+    ],
+    "caption": "Sometimes you know you need a plan, but you have not figured out the details. Let the tool help you think before it helps you write."
+   },
+   {
+    "num": 6,
+    "title": "Turn one idea into a week of content",
+    "slides": [
+     "Turn one idea into a week of content",
+     "You have one useful topic and feel you need six more completely new ideas.",
+     "One topic can become a story, a tutorial, a myth and a practical example.",
+     "Prompt: \"Turn this topic into five distinct post angles. Give each a different audience question and avoid repeating the same advice.\"",
+     "Repurpose the thinking, not the exact same paragraph."
+    ],
+    "caption": "You have one useful topic and feel you need six more completely new ideas. Repurpose the thinking, not the exact same paragraph."
+   },
+   {
+    "num": 7,
+    "title": "Make your prompts easier to reuse",
+    "slides": [
+     "Make your prompts easier to reuse",
+     "You keep typing the same long instructions every time you need a caption.",
+     "That is time you could save with a simple prompt template.",
+     "Use this order: task, audience, context, tone, format, constraints and example. Save the template.",
+     "A good prompt is one you can adapt without starting over."
+    ],
+    "caption": "You keep typing the same long instructions every time you need a caption. A good prompt is one you can adapt without starting over."
+   },
+   {
+    "num": 8,
+    "title": "AI can help with meetings, not just captions",
+    "slides": [
+     "AI can help with meetings, not just captions",
+     "You leave a meeting with notes everywhere and no clear next step.",
+     "The useful part is turning the discussion into decisions and responsibilities.",
+     "Remove sensitive details, then ask: \"Summarise these notes into decisions, action owners, deadlines and open questions. Do not invent missing owners.\"",
+     "A neat summary is helpful. Clear next actions are better."
+    ],
+    "caption": "You leave a meeting with notes everywhere and no clear next step. A neat summary is helpful. Clear next actions are better."
+   },
+   {
+    "num": 9,
+    "title": "How to use AI for research without trusting everything",
+    "slides": [
+     "How to use AI for research without trusting everything",
+     "AI gives you a confident answer, complete with figures and sources.",
+     "Confidence is not proof that the information is correct or current.",
+     "Ask for sources and dates. Open the original sources yourself, especially for prices, laws and financial claims.",
+     "Use AI to organise your research, not to replace checking it."
+    ],
+    "caption": "AI gives you a confident answer, complete with figures and sources. Use AI to organise your research, not to replace checking it."
+   },
+   {
+    "num": 10,
+    "title": "Give AI a job, not just a topic",
+    "slides": [
+     "Give AI a job, not just a topic",
+     "\"Help me with marketing\" is a very wide request.",
+     "You will get a wide answer that may not help you do anything today.",
+     "Try: \"Review this product description and suggest three clearer ways to explain the benefit to first-time buyers.\"",
+     "Smaller, specific tasks are easier to use."
+    ],
+    "caption": "\"Help me with marketing\" is a very wide request. Smaller, specific tasks are easier to use."
+   },
+   {
+    "num": 11,
+    "title": "Use AI to plan a campaign before making graphics",
+    "slides": [
+     "Use AI to plan a campaign before making graphics",
+     "You open a design tool and start creating posts without deciding what the campaign is meant to achieve.",
+     "Pretty visuals cannot rescue a message that is unclear.",
+     "Prompt: \"Build a seven-day awareness campaign for this offer. Include audience problem, core message, post idea and desired action for each day.\"",
+     "Start with the message. Then create the visuals."
+    ],
+    "caption": "You open a design tool and start creating posts without deciding what the campaign is meant to achieve. Start with the message. Then create the visuals."
+   },
+   {
+    "num": 12,
+    "title": "Your image prompt needs more than \"make it beautiful\"",
+    "slides": [
+     "Your image prompt needs more than \"make it beautiful\"",
+     "You ask for a product image and get a scene that does not match your brand.",
+     "The tool needs direction on subject, setting, lighting, framing and what to avoid.",
+     "Try: \"A cream ceramic diffuser on a wooden side table, soft morning window light, warm neutral room, close-up product photography, no text, no extra bottles.\"",
+     "Specific visual details make your ideas easier to communicate."
+    ],
+    "caption": "You ask for a product image and get a scene that does not match your brand. Specific visual details make your ideas easier to communicate."
+   },
+   {
+    "num": 13,
+    "title": "Do not paste confidential information into every AI tool",
+    "slides": [
+     "Do not paste confidential information into every AI tool",
+     "It is tempting to upload an entire customer list just to get a quick analysis.",
+     "But convenience should not come before privacy and your organisation's rules.",
+     "Remove names, contact details and sensitive records. Check the tool's data settings and company policy first.",
+     "You can use AI productively without sharing information you should protect."
+    ],
+    "caption": "It is tempting to upload an entire customer list just to get a quick analysis. You can use AI productively without sharing information you should protect."
+   },
+   {
+    "num": 14,
+    "title": "Ask AI to review your work, not only create it",
+    "slides": [
+     "Ask AI to review your work, not only create it",
+     "You have already written the proposal. You do not need the tool to start from scratch.",
+     "Sometimes a second pair of eyes is the better use case.",
+     "Prompt: \"Review this proposal for unclear wording, missing assumptions and questions a client may ask. Keep my voice.\"",
+     "AI can be a reviewer while you remain the author."
+    ],
+    "caption": "You have already written the proposal. You do not need the tool to start from scratch. AI can be a reviewer while you remain the author."
+   },
+   {
+    "num": 15,
+    "title": "Build a simple AI workflow you will actually use",
+    "slides": [
+     "Build a simple AI workflow you will actually use",
+     "You have tried ten tools and still feel like you are doing everything manually.",
+     "The issue may not be a lack of tools. It may be that none is connected to a real task.",
+     "Choose one repeat job, such as drafting weekly content. Write the steps and test where AI genuinely saves time.",
+     "Start with one useful workflow before adding another subscription."
+    ],
+    "caption": "You have tried ten tools and still feel like you are doing everything manually. Start with one useful workflow before adding another subscription."
+   }
+  ]
+ },
+ {
+  "name": "SheEarns Initiative",
+  "handle": "@sheearnsinitiative",
+  "carousels": [
+   {
+    "num": 1,
+    "title": "You do not have to know everything before you start",
+    "slides": [
+     "You do not have to know everything before you start",
+     "You see a job opening and think, \"I am not ready yet.\"",
+     "Maybe you do not meet every requirement. That does not mean you have nothing to offer.",
+     "List what you can do, what you need to learn and what the role actually requires.",
+     "Confidence often grows after you begin, not before."
+    ],
+    "caption": "You see a job opening and think, \"I am not ready yet.\" Confidence often grows after you begin, not before."
+   },
+   {
+    "num": 2,
+    "title": "Your skill needs proof",
+    "slides": [
+     "Your skill needs proof",
+     "You say you know social media management, but a potential client asks what you have done.",
+     "A certificate is useful, but examples make your ability easier to see.",
+     "Create a sample content calendar or improve a mock business page. Explain your choices.",
+     "Give people something they can look at."
+    ],
+    "caption": "You say you know social media management, but a potential client asks what you have done. Give people something they can look at."
+   },
+   {
+    "num": 3,
+    "title": "You can start with the phone you have",
+    "slides": [
+     "You can start with the phone you have",
+     "It is easy to believe you need a perfect laptop and setup before learning.",
+     "Some skills need specific equipment, but many first lessons can begin with what is available.",
+     "Use your phone to learn, practise writing and research tools, then plan for equipment as your work grows.",
+     "Do not let an imperfect setup stop every first step."
+    ],
+    "caption": "It is easy to believe you need a perfect laptop and setup before learning. Do not let an imperfect setup stop every first step."
+   },
+   {
+    "num": 4,
+    "title": "Mentorship is not someone doing the work for you",
+    "slides": [
+     "Mentorship is not someone doing the work for you",
+     "You finally meet someone experienced and want them to tell you exactly what to do.",
+     "A mentor can guide you, but you still have to practise and make decisions.",
+     "Come with specific questions, share what you have tried and act on the feedback.",
+     "Good mentorship works best when you participate."
+    ],
+    "caption": "You finally meet someone experienced and want them to tell you exactly what to do. Good mentorship works best when you participate."
+   },
+   {
+    "num": 5,
+    "title": "What if you have no work experience?",
+    "slides": [
+     "What if you have no work experience?",
+     "You want to apply for an opportunity, but your CV feels empty.",
+     "School projects, volunteering and self-initiated work can still show useful skills when described honestly.",
+     "Write what you did, the tools you used and what came out of it.",
+     "You cannot invent experience, but you can explain the experience you have."
+    ],
+    "caption": "You want to apply for an opportunity, but your CV feels empty. You cannot invent experience, but you can explain the experience you have."
+   },
+   {
+    "num": 6,
+    "title": "Learning a skill is not the same as earning from it",
+    "slides": [
+     "Learning a skill is not the same as earning from it",
+     "You finish a course and wait for someone to discover you.",
+     "Clients and employers still need to know what you offer.",
+     "Build two examples, write a clear service description and start reaching out thoughtfully.",
+     "Learning opens a door. Showing your work helps people find you."
+    ],
+    "caption": "You finish a course and wait for someone to discover you. Learning opens a door. Showing your work helps people find you."
+   },
+   {
+    "num": 7,
+    "title": "Your first price does not have to be your forever price",
+    "slides": [
+     "Your first price does not have to be your forever price",
+     "You are nervous about charging because you are just starting.",
+     "Charging too little can leave you exhausted, but a price also needs to reflect your current ability and costs.",
+     "Define what is included, estimate your time and review your rates as you gain experience.",
+     "Start fairly, then improve your offer and pricing with evidence."
+    ],
+    "caption": "You are nervous about charging because you are just starting. Start fairly, then improve your offer and pricing with evidence."
+   },
+   {
+    "num": 8,
+    "title": "Do not wait until your CV is perfect",
+    "slides": [
+     "Do not wait until your CV is perfect",
+     "You have edited the same CV twenty times but have not applied anywhere.",
+     "At some point, preparation becomes another way of delaying.",
+     "Tailor your CV to one real opportunity, check it carefully and submit it.",
+     "A CV cannot open a door if it never leaves your phone."
+    ],
+    "caption": "You have edited the same CV twenty times but have not applied anywhere. A CV cannot open a door if it never leaves your phone."
+   },
+   {
+    "num": 9,
+    "title": "One useful skill can lead to another",
+    "slides": [
+     "One useful skill can lead to another",
+     "You begin with data entry and realise you enjoy organising information.",
+     "That interest can lead you towards spreadsheets, reporting or bookkeeping.",
+     "Look at the next skill that naturally builds on what you already know.",
+     "You do not have to figure out your entire career in one day."
+    ],
+    "caption": "You begin with data entry and realise you enjoy organising information. You do not have to figure out your entire career in one day."
+   },
+   {
+    "num": 10,
+    "title": "Your portfolio can start with practice work",
+    "slides": [
+     "Your portfolio can start with practice work",
+     "You have no paying client yet, so you assume you cannot have a portfolio.",
+     "Practice projects can demonstrate your thinking, as long as you label them honestly.",
+     "Choose a realistic brief, complete it and explain the problem and your approach.",
+     "Do not pretend it was paid work. Show what you can do."
+    ],
+    "caption": "You have no paying client yet, so you assume you cannot have a portfolio. Do not pretend it was paid work. Show what you can do."
+   },
+   {
+    "num": 11,
+    "title": "Ask better questions when you are learning",
+    "slides": [
+     "Ask better questions when you are learning",
+     "You are stuck on a task and keep saying, \"I do not understand anything.\"",
+     "A specific question helps someone know where to help.",
+     "Explain what you tried, what happened and the exact point you got confused.",
+     "Learning gets easier when you can describe the problem."
+    ],
+    "caption": "You are stuck on a task and keep saying, \"I do not understand anything.\" Learning gets easier when you can describe the problem."
+   },
+   {
+    "num": 12,
+    "title": "A rejection is information, not your whole story",
+    "slides": [
+     "A rejection is information, not your whole story",
+     "You applied and got a no. It stings, especially when you really wanted the role.",
+     "One decision does not tell you everything about your ability.",
+     "Review what you can improve, ask for feedback where appropriate and keep applying.",
+     "Take the lesson if there is one. Do not turn it into your identity."
+    ],
+    "caption": "You applied and got a no. It stings, especially when you really wanted the role. Take the lesson if there is one. Do not turn it into your identity."
+   },
+   {
+    "num": 13,
+    "title": "Professionalism starts before your first big job",
+    "slides": [
+     "Professionalism starts before your first big job",
+     "You may be working on a small project, but the client still needs updates.",
+     "Being reliable can make as much difference as being talented.",
+     "Agree on deadlines, communicate delays early and deliver what you promised.",
+     "Small opportunities are still places to build trust."
+    ],
+    "caption": "You may be working on a small project, but the client still needs updates. Small opportunities are still places to build trust."
+   },
+   {
+    "num": 14,
+    "title": "Do you know what you want to be hired for?",
+    "slides": [
+     "Do you know what you want to be hired for?",
+     "Your bio says you can do everything from design to bookkeeping to marketing.",
+     "That may confuse someone looking for one specific service.",
+     "Lead with the skill you want to be known for and support it with examples.",
+     "Make it easy for the right person to understand your offer."
+    ],
+    "caption": "Your bio says you can do everything from design to bookkeeping to marketing. Make it easy for the right person to understand your offer."
+   },
+   {
+    "num": 15,
+    "title": "Your next opportunity may start with one conversation",
+    "slides": [
+     "Your next opportunity may start with one conversation",
+     "You assume networking means attending expensive events and collecting contacts.",
+     "Sometimes it starts by asking someone about their work and listening.",
+     "Reach out politely, ask one thoughtful question and keep the relationship genuine.",
+     "People remember curiosity and follow-through more than a perfect introduction."
+    ],
+    "caption": "You assume networking means attending expensive events and collecting contacts. People remember curiosity and follow-through more than a perfect introduction."
+   }
+  ]
+ },
+ {
+  "name": "The Calming Experience",
+  "handle": "@thecalmingexperience",
+  "carousels": [
+   {
+    "num": 1,
+    "title": "When last did you do something just because you enjoyed it?",
+    "slides": [
+     "When last did you do something just because you enjoyed it?",
+     "Not because it was productive. Not because you could turn it into content.",
+     "Just because it made you smile or helped you feel present.",
+     "Think of one small thing you used to enjoy and make room for it this week.",
+     "You are allowed to have moments that do not need to achieve anything."
+    ],
+    "caption": "Not because it was productive. Not because you could turn it into content. You are allowed to have moments that do not need to achieve anything."
+   },
+   {
+    "num": 2,
+    "title": "You do not need a special occasion to gather your friends",
+    "slides": [
+     "You do not need a special occasion to gather your friends",
+     "We keep saying we will see each other when things are less busy.",
+     "Then months pass and everybody is still waiting for the perfect weekend.",
+     "Pick a simple date, keep the plan easy and let people show up as they are.",
+     "Sometimes the gathering itself is the occasion."
+    ],
+    "caption": "We keep saying we will see each other when things are less busy. Sometimes the gathering itself is the occasion."
+   },
+   {
+    "num": 3,
+    "title": "Rest does not have to look impressive",
+    "slides": [
+     "Rest does not have to look impressive",
+     "You see beautiful retreats online and think that is what proper rest must look like.",
+     "But sometimes rest is a quiet evening and a phone on silent.",
+     "Ask yourself what would genuinely help you feel less stretched this week.",
+     "The best kind of rest is the one you actually need."
+    ],
+    "caption": "You see beautiful retreats online and think that is what proper rest must look like. The best kind of rest is the one you actually need."
+   },
+   {
+    "num": 4,
+    "title": "A creative afternoon can be enough",
+    "slides": [
+     "A creative afternoon can be enough",
+     "You do not have to be an artist to enjoy painting, journaling or making something with your hands.",
+     "It is not a competition and nobody needs to grade the result.",
+     "Choose an activity that sounds fun, bring a friend and allow yourself to be a beginner.",
+     "The experience matters more than the finished piece."
+    ],
+    "caption": "You do not have to be an artist to enjoy painting, journaling or making something with your hands. The experience matters more than the finished piece."
+   },
+   {
+    "num": 5,
+    "title": "Why do we postpone the things we enjoy?",
+    "slides": [
+     "Why do we postpone the things we enjoy?",
+     "There is always another task, another bill or another reason to wait.",
+     "Of course responsibilities matter. But enjoyment does not have to disappear completely.",
+     "Put one affordable, enjoyable plan on your calendar before the month runs away.",
+     "A full life needs room for more than obligations."
+    ],
+    "caption": "There is always another task, another bill or another reason to wait. A full life needs room for more than obligations."
+   },
+   {
+    "num": 6,
+    "title": "Your weekend does not need to be packed",
+    "slides": [
+     "Your weekend does not need to be packed",
+     "Friday comes and suddenly you have planned every hour until Sunday night.",
+     "You might return to Monday more tired than you were on Friday.",
+     "Leave one open space in your weekend with no obligation attached.",
+     "You can have fun and still leave room to breathe."
+    ],
+    "caption": "Friday comes and suddenly you have planned every hour until Sunday night. You can have fun and still leave room to breathe."
+   },
+   {
+    "num": 7,
+    "title": "Let the conversation go beyond \"How is work?\"",
+    "slides": [
+     "Let the conversation go beyond \"How is work?\"",
+     "You meet a friend and somehow spend the entire evening talking about deadlines.",
+     "There is so much more happening in both your lives.",
+     "Ask what they are excited about, what they have been learning or what made them laugh lately.",
+     "Connection grows when we make room for the whole person."
+    ],
+    "caption": "You meet a friend and somehow spend the entire evening talking about deadlines. Connection grows when we make room for the whole person."
+   },
+   {
+    "num": 8,
+    "title": "You can create a calming corner at home",
+    "slides": [
+     "You can create a calming corner at home",
+     "Your house does not have to look like a magazine to feel welcoming.",
+     "A small tidy space, comfortable seat and softer light can change how a room feels.",
+     "Choose one corner and make it a place where you enjoy sitting for a few minutes.",
+     "Start with what you already have."
+    ],
+    "caption": "Your house does not have to look like a magazine to feel welcoming. Start with what you already have."
+   },
+   {
+    "num": 9,
+    "title": "You do not have to be good at the activity",
+    "slides": [
+     "You do not have to be good at the activity",
+     "Maybe you want to try pottery, painting or dancing but worry you will look silly.",
+     "The first attempt is allowed to be messy.",
+     "Go for the experience and laugh when things do not go to plan.",
+     "Being new at something can be part of the fun."
+    ],
+    "caption": "Maybe you want to try pottery, painting or dancing but worry you will look silly. Being new at something can be part of the fun."
+   },
+   {
+    "num": 10,
+    "title": "A vision board is not a magic board",
+    "slides": [
+     "A vision board is not a magic board",
+     "Putting pictures on a board can be exciting. But the pictures will not do the work for you.",
+     "The useful part is thinking about what you want and what needs to change.",
+     "For each goal, write one realistic action you can take in the next month.",
+     "Dreaming is lovely. Giving the dream a next step makes it useful."
+    ],
+    "caption": "Putting pictures on a board can be exciting. But the pictures will not do the work for you. Dreaming is lovely. Giving the dream a next step makes it useful."
+   },
+   {
+    "num": 11,
+    "title": "Make memories without recording every second",
+    "slides": [
+     "Make memories without recording every second",
+     "You arrive somewhere lovely and spend most of the time trying to get the perfect video.",
+     "There is nothing wrong with taking pictures. Just notice when the camera takes over.",
+     "Take a few photos, then put your phone away for part of the experience.",
+     "Some moments deserve your full attention."
+    ],
+    "caption": "You arrive somewhere lovely and spend most of the time trying to get the perfect video. Some moments deserve your full attention."
+   },
+   {
+    "num": 12,
+    "title": "Friendship can be simple",
+    "slides": [
+     "Friendship can be simple",
+     "Not every friendship needs constant outings or long phone calls.",
+     "Sometimes a thoughtful message or a quick check-in means a lot.",
+     "Reach out to someone you have been meaning to speak to, without waiting for a reason.",
+     "Little moments of care count too."
+    ],
+    "caption": "Not every friendship needs constant outings or long phone calls. Little moments of care count too."
+   },
+   {
+    "num": 13,
+    "title": "It is okay to enjoy your own company",
+    "slides": [
+     "It is okay to enjoy your own company",
+     "You want to visit a café or attend an activity, but nobody is free to come along.",
+     "Waiting for company can mean missing things you would genuinely enjoy.",
+     "Start with a place or activity where you feel comfortable going alone.",
+     "Your own company can be a good one."
+    ],
+    "caption": "You want to visit a café or attend an activity, but nobody is free to come along. Your own company can be a good one."
+   },
+   {
+    "num": 14,
+    "title": "Not every gathering needs to be expensive",
+    "slides": [
+     "Not every gathering needs to be expensive",
+     "You want to bring people together but keep calculating the cost of a big event.",
+     "A meaningful experience can be small and thoughtfully planned.",
+     "Try a games evening, shared meal or simple creative session within your budget.",
+     "People often remember how they felt more than how much was spent."
+    ],
+    "caption": "You want to bring people together but keep calculating the cost of a big event. People often remember how they felt more than how much was spent."
+   },
+   {
+    "num": 15,
+    "title": "What would make this month feel good?",
+    "slides": [
+     "What would make this month feel good?",
+     "We are quick to write work targets and financial goals.",
+     "But we rarely ask what kind of moments we want to have.",
+     "Choose one experience, one person to reconnect with and one quiet moment for yourself.",
+     "A good month can include progress and enjoyment."
+    ],
+    "caption": "We are quick to write work targets and financial goals. A good month can include progress and enjoyment."
+   }
+  ]
+ },
+ {
+  "name": "Tenye Home & Fragrance",
+  "handle": "@tenyescents",
+  "carousels": [
+   {
+    "num": 1,
+    "title": "Your room can smell good without doing too much",
+    "slides": [
+     "Your room can smell good without doing too much",
+     "You do not need five different fragrances fighting for attention.",
+     "Sometimes one scent in the right place is enough.",
+     "Start with one fragrance you enjoy and see how it settles in your space.",
+     "A lovely room does not have to smell overwhelming."
+    ],
+    "caption": "You do not need five different fragrances fighting for attention. A lovely room does not have to smell overwhelming."
+   },
+   {
+    "num": 2,
+    "title": "Where should you put your reed diffuser?",
+    "slides": [
+     "Where should you put your reed diffuser?",
+     "You buy a diffuser, tuck it into a hidden corner and wonder why you barely notice it.",
+     "Placement affects how fragrance moves around the room.",
+     "Try a stable surface with some airflow, away from direct sunlight and where children or pets cannot knock it over.",
+     "The right spot can make a simple difference."
+    ],
+    "caption": "You buy a diffuser, tuck it into a hidden corner and wonder why you barely notice it. The right spot can make a simple difference."
+   },
+   {
+    "num": 3,
+    "title": "Your home does not have to be perfect to feel cosy",
+    "slides": [
+     "Your home does not have to be perfect to feel cosy",
+     "There may be laundry waiting and dishes you have not finished.",
+     "That does not mean you cannot enjoy a little comfort in your space.",
+     "Clear one surface, open a window and add a fragrance you like.",
+     "Sometimes a small reset is enough."
+    ],
+    "caption": "There may be laundry waiting and dishes you have not finished. Sometimes a small reset is enough."
+   },
+   {
+    "num": 4,
+    "title": "Why does the same scent smell different in two rooms?",
+    "slides": [
+     "Why does the same scent smell different in two rooms?",
+     "You love a fragrance in the bedroom but barely notice it in the sitting room.",
+     "Room size, ventilation and temperature can change how strong it seems.",
+     "Try the scent in a smaller area first and adjust placement before adding more.",
+     "The fragrance has not necessarily changed. The space might have."
+    ],
+    "caption": "You love a fragrance in the bedroom but barely notice it in the sitting room. The fragrance has not necessarily changed. The space might have."
+   },
+   {
+    "num": 5,
+    "title": "How to choose a scent when shopping online",
+    "slides": [
+     "How to choose a scent when shopping online",
+     "You cannot smell through your phone, so descriptions matter.",
+     "Words like fresh, woody, sweet and floral give you clues, but everyone experiences scent differently.",
+     "Think about fragrances you already enjoy and choose notes in a similar family.",
+     "Start with what you know you like, then explore."
+    ],
+    "caption": "You cannot smell through your phone, so descriptions matter. Start with what you know you like, then explore."
+   },
+   {
+    "num": 6,
+    "title": "A scent for your slow evening",
+    "slides": [
+     "A scent for your slow evening",
+     "You have finally finished the day and want your room to feel a little calmer.",
+     "Sometimes the small details help signal that work is over.",
+     "Tidy your bedside area, lower the lights and use a fragrance you personally find relaxing.",
+     "It is less about a perfect routine and more about enjoying your space."
+    ],
+    "caption": "You have finally finished the day and want your room to feel a little calmer. It is less about a perfect routine and more about enjoying your space."
+   },
+   {
+    "num": 7,
+    "title": "Do not judge a fragrance in the first minute",
+    "slides": [
+     "Do not judge a fragrance in the first minute",
+     "You open a product and immediately decide whether you love it.",
+     "Some scents settle and feel different after a little time.",
+     "Give it a moment in your space before making up your mind.",
+     "Fragrance is an experience, not a race."
+    ],
+    "caption": "You open a product and immediately decide whether you love it. Fragrance is an experience, not a race."
+   },
+   {
+    "num": 8,
+    "title": "The entrance to your home matters",
+    "slides": [
+     "The entrance to your home matters",
+     "It is the first space you and your guests walk into.",
+     "You do not need a dramatic makeover to make it feel welcoming.",
+     "Keep the area uncluttered and choose a gentle scent that suits the space.",
+     "A warm welcome can begin before anyone says hello."
+    ],
+    "caption": "It is the first space you and your guests walk into. A warm welcome can begin before anyone says hello."
+   },
+   {
+    "num": 9,
+    "title": "Do you prefer fresh or cosy scents?",
+    "slides": [
+     "Do you prefer fresh or cosy scents?",
+     "Some days you want a room that feels airy and clean. Other days you want something warm and comforting.",
+     "Neither is better. It depends on what you enjoy and the mood you want.",
+     "Notice which scent families you reach for in different spaces.",
+     "Your fragrance choices can change with your mood."
+    ],
+    "caption": "Some days you want a room that feels airy and clean. Other days you want something warm and comforting. Your fragrance choices can change with your mood."
+   },
+   {
+    "num": 10,
+    "title": "How to make your guest bathroom feel welcoming",
+    "slides": [
+     "How to make your guest bathroom feel welcoming",
+     "You do not need to redesign the whole bathroom before visitors arrive.",
+     "A clean space, fresh towel and pleasant scent go a long way.",
+     "Keep fragrance subtle and make sure the room has good ventilation.",
+     "Small details can make people feel considered."
+    ],
+    "caption": "You do not need to redesign the whole bathroom before visitors arrive. Small details can make people feel considered."
+   },
+   {
+    "num": 11,
+    "title": "Your work corner deserves attention too",
+    "slides": [
+     "Your work corner deserves attention too",
+     "You spend hours at that desk, yet it is often the last place you think about.",
+     "A comfortable workspace can make the day feel a little better.",
+     "Clear the desk, check the lighting and add a light fragrance if scents do not distract you.",
+     "Make room for comfort where you spend your time."
+    ],
+    "caption": "You spend hours at that desk, yet it is often the last place you think about. Make room for comfort where you spend your time."
+   },
+   {
+    "num": 12,
+    "title": "Fragrance is personal",
+    "slides": [
+     "Fragrance is personal",
+     "A scent your friend loves might not be your favourite.",
+     "That is normal. People notice and enjoy different notes.",
+     "Choose what you actually like rather than what everyone online is buying.",
+     "Your home should smell like a place you enjoy being."
+    ],
+    "caption": "A scent your friend loves might not be your favourite. Your home should smell like a place you enjoy being."
+   },
+   {
+    "num": 13,
+    "title": "A thoughtful housewarming gift does not have to be complicated",
+    "slides": [
+     "A thoughtful housewarming gift does not have to be complicated",
+     "You want to take something useful but do not know the person's exact taste.",
+     "Home fragrance can be lovely, but scent preferences vary.",
+     "Ask about their favourite scent family or choose a modest option with an exchange possibility.",
+     "A thoughtful gift starts with the person receiving it."
+    ],
+    "caption": "You want to take something useful but do not know the person's exact taste. A thoughtful gift starts with the person receiving it."
+   },
+   {
+    "num": 14,
+    "title": "Keep your diffuser away from these spots",
+    "slides": [
+     "Keep your diffuser away from these spots",
+     "You love the bottle and want to place it right beside the window.",
+     "Direct heat and sunlight may affect the fragrance, and spills can damage surfaces.",
+     "Follow the product instructions and place it securely, away from flames, children and pets.",
+     "A beautiful setup should also be a safe one."
+    ],
+    "caption": "You love the bottle and want to place it right beside the window. A beautiful setup should also be a safe one."
+   },
+   {
+    "num": 15,
+    "title": "A little Sunday home reset",
+    "slides": [
+     "A little Sunday home reset",
+     "You do not have to spend the entire Sunday deep-cleaning to feel ready for the week.",
+     "Sometimes the small jobs are the ones that make Monday easier.",
+     "Change the sheets, clear your favourite corner and refresh the room with a scent you enjoy.",
+     "A few thoughtful minutes can make home feel welcoming again."
+    ],
+    "caption": "You do not have to spend the entire Sunday deep-cleaning to feel ready for the week. A few thoughtful minutes can make home feel welcoming again."
+   }
+  ]
+ }
+]
