@@ -74,7 +74,7 @@ window.render = async ({ slide: s, index, total, handle, theme, logo }) => {
     inner = `<div class="bar"></div><div class="head" id="h">${s.head}</div>
       <div class="body" id="b" style="margin-top:36px">${paras}</div>
       <div class="sign"><img src="../assets/logos/${logo}${theme.logo === 'white' ? '-white' : ''}.png"><i>${s.signoff.tagline}</i></div>
-      <div class="ask" id="q">${svg('chat', theme.askInk, 3.5)}<span>${s.question}</span></div>`;
+      ${s.question ? `<div class="ask" id="q">${svg('chat', theme.askInk, 3.5)}<span>${s.question}</span></div>` : ''}`;
   } else {
     inner = `<div class="bar"></div><div class="head" id="h">${s.head}</div>
       ${listFirst ? list : ''}
@@ -90,7 +90,7 @@ window.render = async ({ slide: s, index, total, handle, theme, logo }) => {
   await document.fonts.ready;
   const box = document.getElementById('box'), head = document.getElementById('h');
   const others = [...el.querySelectorAll('#b, #l')];
-  const sizes = n === 1 ? [104, 44] : s.signoff ? [78, 40] : [76, 40];
+  const sizes = n === 1 ? [104, 46] : [92, 48];
   const over = fitBlock(box, head, others, sizes[0], sizes[1], 0.6);
   return { overflow: over };
 };

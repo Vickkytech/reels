@@ -47,7 +47,7 @@ The brief has no captions; `captions.md` reuses each cover's hook.
 Longer single carousels written as headline + short lines live in `build/stories/*.json` and render
 with `node build/render-story.mjs stories/<file>.json` (`build/template-story.html`). Lines starting
 with `!` are the highlighted key line; `list` renders as bullets. Output goes to the JSON's `folder`,
-e.g. `sheearns-initiative/extra-01-every-woman-should-have-something-her-own/` (10 slides).
+e.g. `sheearns-initiative/extra-01-every-woman-should-have-something-her-own/` (7 slides).
 
 ## Re-rendering
 
