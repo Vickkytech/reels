@@ -34,11 +34,17 @@ await page.goto(pathToFileURL(path.join(here, "template-story.html")).href);
 await page.evaluate(() => document.fonts.ready);
 fs.mkdirSync(outDir, { recursive: true });
 
+// "bookends": first and last slide on the dark theme, everything between on the light one.
+const themeIndex = (i) =>
+  story.themeOrder === "bookends"
+    ? (i === 0 || i === story.slides.length - 1 ? 0 : THEMES.length - 1)
+    : i % THEMES.length;
+
 const issues = [];
 for (const [i, s] of story.slides.entries()) {
   const res = await page.evaluate((d) => window.render(d), {
     slide: deep(s), index: i, total: story.slides.length, handle: story.handle,
-    theme: THEMES[i % THEMES.length], logo: brand.logo,
+    theme: THEMES[themeIndex(i)], logo: brand.logo,
   });
   if (res.overflow) issues.push(`slide ${i + 1} overflows`);
   await page.screenshot({ path: path.join(outDir, `slide-${String(i + 1).padStart(2, "0")}.png`) });

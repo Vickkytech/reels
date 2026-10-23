@@ -2,17 +2,101 @@
   "brand": "SheEarns Initiative",
   "handle": "@sheearnsinitiative",
   "folder": "sheearns-initiative/extra-01-every-woman-should-have-something-her-own",
+  "themeOrder": "bookends",
   "slides": [
-    { "head": "Every woman should have something she can call her own.", "body": ["A skill. A career. A business. Something that gives her the opportunity to earn."] },
-    { "head": "There's nothing wrong with being supported.", "body": ["By your parents, your partner, your husband, or anyone who genuinely cares about you.", "Having people who support you is a beautiful thing.", "!But you should also be intentional about building something for yourself."] },
-    { "head": "Because life can change.", "body": ["Someone who supports you today might not be in a position to do so tomorrow.", "Not because they stopped caring, but because circumstances change.", "!And when that happens, you should have something you can fall back on."] },
-    { "head": "You don't have to wait until you need money to learn how to earn it.", "body": ["Don't wait until things become difficult before you start developing yourself.", "!The best time to build your skills is when you have the opportunity to learn."] },
-    { "head": "Your ability to earn gives you options.", "list": ["The option to take care of some of your needs.", "The option to contribute at home.", "The option to pursue opportunities without depending entirely on someone else."], "body": ["!And sometimes, simply the confidence of knowing you can do something for yourself."] },
-    { "head": "You don't need to have everything figured out.", "body": ["You can start with one skill.", "Learn it properly. Practise. Build experience.", "You might not earn much immediately, and that's okay.", "!What matters is that you're developing something valuable."] },
-    { "head": "And please, don't think it's too late to start.", "body": ["Whether you're a student, a graduate, employed, unemployed, married, or still trying to figure out your next step.", "There's always room to learn something new.", "!Start with what you have access to and build from there."] },
-    { "head": "Being financially independent doesn't mean doing everything alone.", "list": ["You can receive support and still earn your own money.", "You can be married and still have a career.", "You can be cared for and still have personal goals."], "body": ["!One doesn't have to cancel the other."] },
-    { "head": "Invest in the woman you're becoming.", "list": ["Take that course.", "Learn that skill.", "Apply for that opportunity.", "Build your portfolio.", "Start small if you need to."], "body": ["!Just don't stop investing in yourself."] },
-    { "head": "Don't limit your future to what someone else can provide.", "body": ["There's so much you can learn, build, and become.", "Your journey can start with one skill."], "signoff": { "name": "SheEarns Initiative", "tagline": "Skills into Possibilities." }, "question": "What skill would you encourage every young woman to learn?" }
+    {
+      "head": "Every woman should have something she can call her own.",
+      "body": [
+        "A skill. A career. A business. Something that gives her the opportunity to earn."
+      ]
+    },
+    {
+      "head": "There's nothing wrong with being supported.",
+      "body": [
+        "By your parents, your partner, your husband, or anyone who genuinely cares about you.",
+        "Having people who support you is a beautiful thing.",
+        "!But you should also be intentional about building something for yourself."
+      ]
+    },
+    {
+      "head": "Because life can change.",
+      "body": [
+        "Someone who supports you today might not be in a position to do so tomorrow.",
+        "Not because they stopped caring, but because circumstances change.",
+        "!And when that happens, you should have something you can fall back on."
+      ]
+    },
+    {
+      "head": "You don't have to wait until you need money to learn how to earn it.",
+      "body": [
+        "Don't wait until things become difficult before you start developing yourself.",
+        "!The best time to build your skills is when you have the opportunity to learn."
+      ]
+    },
+    {
+      "head": "Your ability to earn gives you options.",
+      "list": [
+        "The option to take care of some of your needs.",
+        "The option to contribute at home.",
+        "The option to pursue opportunities without depending entirely on someone else."
+      ],
+      "body": [
+        "!And sometimes, simply the confidence of knowing you can do something for yourself."
+      ]
+    },
+    {
+      "head": "You don't need to have everything figured out.",
+      "body": [
+        "You can start with one skill.",
+        "Learn it properly. Practise. Build experience.",
+        "You might not earn much immediately, and that's okay.",
+        "!What matters is that you're developing something valuable."
+      ]
+    },
+    {
+      "head": "And please, don't think it's too late to start.",
+      "body": [
+        "Whether you're a student, a graduate, employed, unemployed, married, or still trying to figure out your next step.",
+        "There's always room to learn something new.",
+        "!Start with what you have access to and build from there."
+      ]
+    },
+    {
+      "head": "Being financially independent doesn't mean doing everything alone.",
+      "list": [
+        "You can receive support and still earn your own money.",
+        "You can be married and still have a career.",
+        "You can be cared for and still have personal goals."
+      ],
+      "body": [
+        "!One doesn't have to cancel the other."
+      ]
+    },
+    {
+      "head": "Invest in the woman you're becoming.",
+      "list": [
+        "Take that course.",
+        "Learn that skill.",
+        "Apply for that opportunity.",
+        "Build your portfolio.",
+        "Start small if you need to."
+      ],
+      "body": [
+        "!Just don't stop investing in yourself."
+      ]
+    },
+    {
+      "head": "Don't limit your future to what someone else can provide.",
+      "body": [
+        "There's so much you can learn, build, and become.",
+        "Your journey can start with one skill."
+      ],
+      "signoff": {
+        "name": "SheEarns Initiative",
+        "tagline": "Skills into Possibilities."
+      },
+      "question": "What skill would you encourage every young woman to learn?"
+    }
   ],
   "caption": "Support is a gift. Building something of your own is a choice you can make alongside it, whatever stage you're at.\n\nWhat skill would you encourage every young woman to learn? Tell us in the comments."
 }
